@@ -20,10 +20,10 @@ Retrieve some statistics about one client as a single JSON object.
     <th>Description</th>
   </tr>
   <tr>
-    <th>id/slug</th>
+    <th>slug</th>
     <td><code>volksfreund</code></td>
     <td>required</td>
-    <td>Client-id/-slug based on the internal betterplace.org client-table.</td>
+    <td>Client-slug based on the internal betterplace.org client-table.</td>
   </tr>
 </table>
 
