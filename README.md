@@ -20,8 +20,8 @@ Source: https://docs.google.com/a/betterplace.org/document/d/173m4jhzhUViX4D8qXc
 - [Projects Search and List, Project Details](sections/projects.md)
   - todo: add sorting to list
   - todo: add client-filter to search, list, show
-  - todo: add list-view with all the details needed to show the list-search-results without doing an n+1-query
-  - todo: add "number_of_donors_for_last_14_days" to search results, based on supporter-table
+  - todo: add list-view with all the details needed to show the list-search-results without doing an n+1-query
+  - todo: add "number_of_donors_for_last_14_days" to search results, based on supporter-table
     - todo platform: Make sure the supporter-table update_at is actually set, so we really get the last-14-days-donors
   - todo: also add the "number_of_donors" (total), just because it makes sense
   - todo: add full-text-search on all projects (filtered for a client) (example http://www.volksfreund-servicecenter.de/projekte/suche/?suche=Kinder)
@@ -36,7 +36,7 @@ Source: https://docs.google.com/a/betterplace.org/document/d/173m4jhzhUViX4D8qXc
   - .
 
 - [Donations List](sections/donations.md) - Spenden-Aktivität zeigen. Liste der letzten 8 Spenden auf alle Projekte, die dem Client zugewiesen sind nach Datum, Anzeige von Datum, Betrag, Projektittel, Link zum Projekt
-  - todo: list donations
+  - todo: list donations
   - todo: add limit (=pagniation)
   - todo: add client-filter so list
   - todo: add sortierung
@@ -45,9 +45,9 @@ Source: https://docs.google.com/a/betterplace.org/document/d/173m4jhzhUViX4D8qXc
 - [Blogpost List, Blogpost Details](sections/blogposts.md)
   - todo: list blogpost regardless of projects
   - todo: add client-filter to list (only blogposts of projects of the client)
-  - todo: add filter for blogpost.type to allow excluding all payout_blogposts
+  - todo: add filter for blogpost.type to allow excluding all payout_blogposts
   - todo data list:
-    - blogpost.type = blogpost || payout_blogpost to the list-entries
+    - blogpost.type = blogpost || payout_blogpost to the list-entries
     - title, language, receiver_type (project, fundraising_event, organisation), receiver_id
   - todo data details:
     - reminder: for payout_blogpost also include the table …
