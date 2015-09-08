@@ -2,7 +2,7 @@
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/projects/1114/pictures.json
+GET http://jop.betterplace.dev/de/api_v4/projects/1114/pictures.json
 ```
 
 A list of pictures of a betterplace.org project (donate money).
@@ -110,9 +110,9 @@ projects, the API will return a `404` HTTP code.
 
 ```json
 {
-  "total_entries": 26,
+  "total_entries": 35,
   "offset": 3,
-  "total_pages": 9,
+  "total_pages": 12,
   "current_page": 2,
   "per_page": 3,
   "data": [

@@ -2,7 +2,7 @@
 # Matching Fund Projects List
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/matching_funds/2/projects.json
+GET http://jop.betterplace.dev/de/api_v4/matching_funds/2/projects.json
 ```
 
 A list of betterplace.org matching fund projects.
@@ -47,7 +47,9 @@ A list of betterplace.org matching fund projects.
       <th align="left">created_at</th>
       <td>string</td>
       <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone)</td>
+      <td>DateTime (ISO8601 with Timezone) when the project was created by the
+project manager.
+</td>
     </tr>
     <tr>
       <th align="left">updated_at</th>
@@ -130,7 +132,19 @@ betterplace.org instead!
       <th align="left">completed_at</th>
       <td>string</td>
       <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone) when the project was completed</td>
+      <td>DateTime (ISO8601 with Timezone) of the moment the project was fully
+funded (100% progress_percentage).
+An uncompleted project may be already closed, see closed_at for details.
+</td>
+    </tr>
+    <tr>
+      <th align="left">closed_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the project was closed by the
+project manager. A closed project does not have to be completed (fully
+funded), see completed_at for details.
+</td>
     </tr>
     <tr>
       <th align="left">open_amount_in_cents</th>
@@ -573,7 +587,7 @@ set for organisations.
     {
       "id": 14784,
       "created_at": "2013-09-23T16:29:10+02:00",
-      "updated_at": "2015-03-10T09:44:38+01:00",
+      "updated_at": "2015-06-30T13:45:58+02:00",
       "latitude": 53.55808469999999,
       "longitude": 10.01197890000003,
       "street": "",
@@ -581,18 +595,19 @@ set for organisations.
       "city": "Hamburg",
       "country": "Deutschland",
       "title": "Mein Baum – Meine Stadt",
-      "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
+      "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br><br>Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br><br>Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br>Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br>Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br><br>Das funktioniert folgendermaßen:<br>1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br>2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br>3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br><br>Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
       "tax_deductible": true,
       "donations_prohibited": false,
       "completed_at": null,
-      "open_amount_in_cents": 94500,
-      "positive_opinions_count": 83,
+      "closed_at": null,
+      "open_amount_in_cents": 94000,
+      "positive_opinions_count": 84,
       "negative_opinions_count": 0,
       "donor_count": 71,
       "progress_percentage": 95,
       "incomplete_need_count": 2,
       "completed_need_count": 4,
-      "blog_post_count": 19,
+      "blog_post_count": 20,
       "contact": {
         "name": "A. Jahn",
         "picture": {

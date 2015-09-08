@@ -2,7 +2,7 @@
 # Organisation Details ⇄ [List](organisations_list.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/organisations/125.json
+GET http://jop.betterplace.dev/de/api_v4/organisations/125.json
 ```
 
 The details of a betterplace.org organisation.
@@ -285,7 +285,7 @@ access rights in order to see this information.
 {
   "id": 125,
   "created_at": "2008-02-06T17:10:42+01:00",
-  "updated_at": "2015-03-17T18:00:05+01:00",
+  "updated_at": "2015-06-24T08:40:27+02:00",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
@@ -297,28 +297,28 @@ access rights in order to see this information.
   "description": "Die Organisation Viva con Agua:\r\n\r\nViva con Agua de Sankt Pauli e.V. ist eine international tätige Wasserinitiative und wird vom FC St. Pauli ideell unterstützt. Initiator Benjamin Adrion, ehemaliger Mittelfeldspieler des Fußballclubs, gründete 2005 nach einem Trainingslager auf Kuba den gemeinnützigen Verein. \r\n\r\nZiel der Initiative ist es, die Versorgung mit sauberem Trinkwasser und sanitären Anlagen in Entwicklungsländern nachhaltig zu verbessern. Viva con Agua ist Projektpartner der Welthungerhilfe.\r\n\r\n21 Projekte in 15 Projektländern hat Viva con Agua bereits in Zusammenarbeit mit der Welthungerhilfe realisiert und damit über 300.000 Menschen Zugang zu sauberem Trinkwasser ermöglicht. Des Weiteren haben mehr als 100.000 Schüler und Studenten im deutschsprachigen Raum VcA-Bildungsworkshops, Seminare und Spendenläufe mitgemacht.\r\n\r\nAuszeichnungen:\r\n\r\nISPO Award 2013\r\nHAMMA Award 2012\r\nUtopia Award 2012\r\nB.A.U.M.-Umweltpreis 2011\r\nWerkstatt N-Projekt 2010\r\nBundesverdienstkreuz 2009\r\nUtopia Award 2008\r\nAusgewählter Ort im Land der Ideen 2007 (Schirmherrschaft Bundespräsident Horst Köhler)\r\nBundessieger start social 2007 (Schirmherrschaft Bundeskanzlerin Angela Merkel)\r\ntaz-Panter-Preis 2006 \r\n\r\n\r\nAktivitäten und Initiativen\r\n\r\nViva con Agua veranstaltet laufend Konzerte, Partys, Sport- und Kulturevents, deren Erlöse als Spende in Trinkwasserprojekte fließen.\r\n\r\nSchärfung des Bewusstseins, besonders bei jungen Menschen in Deutschland, für die Themen Wasser und Entwicklungshilfe ist das zweite wichtige Anliegen von Viva con Agua.\r\n\r\nDie Sensibilisierung für diese Bereiche soll einerseits durch die zahlreichen Veranstaltungen von Viva con Agua erfolgen, aber auch in intensiver Bildungsarbeit an Schulen. Damit führt Viva con Agua schon frühzeitig Kinder und Jugendliche an soziales und humanitäres Engagement heran.",
   "tax_deductible": true,
   "contact": {
-    "name": "C. Gersdorf",
+    "name": "Moritz M.",
     "picture": {
       "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/399/690/fill_100x100_Felix-Rachor_mi.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/328/374/fill_100x100_Moritz_Meier_2.1.jpg"
         },
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/399/690/crop_original_Felix-Rachor_mi.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/328/374/crop_original_Moritz_Meier_2.1.jpg"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/de/users/claudia_g28"
+        "href": "https://www.betterplace.org/de/users/moritz_m10"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/de/api_v4/users/399690/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/328374/contact_data.json"
       }
     ]
   },

@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/volunteering/18.json
+GET http://jop.betterplace.dev/de/api_v4/volunteering/18.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).
@@ -477,7 +477,7 @@ subscribe to the change-log newsletter so we can inform you about upcomming chan
 {
   "id": 18,
   "created_at": "2013-01-28T10:23:14+01:00",
-  "updated_at": "2015-01-21T01:30:26+01:00",
+  "updated_at": "2015-04-20T03:07:41+02:00",
   "latitude": 51.3171,
   "longitude": 9.49561,
   "street": "",
@@ -485,7 +485,7 @@ subscribe to the change-log newsletter so we can inform you about upcomming chan
   "city": "Kassel",
   "country": "Deutschland",
   "title": "Awo Büro Aktiv  Kassel- Besuchsdienst für Senioren im Käthe-Richterhaus",
-  "description": "<p>Wir suchen Ehrenamtliche, die den alten Menschen in liebevoller Weise den Kontakt zum normalen Leben und Alltag vermitteln. Sie helfen mit, die Lebensqualität der Altenheimbewohner wesentlich zu verbessern, in dem Sie einen Bewohner regelmäßig besuchen oder Unterhaltung für eine Gruppe von alten Menschen anbieten. Sie können sich in folgenden Häusern engagieren.</p>\n\n<p>Sie sollten kommunikativ sein und gut zuhören können, musikalisch sein oder leidenschaftlich gerne spielen. Vielleicht haben Sie einen lieben Hund und</p>\n\n<p>möchten mit diesem gerne pflegebedürftige Menschen besuchen oder Sie haben andere eigene Ideen. Für jeden wird sich hier das Richtige finden!</p>\n\n<p><strong>- Unterstützung bzw selbstständige Durchführung von Gruppenangeboten</strong></p>\n\n<p><strong>- Unterstützung bei der Gartenarbeit</strong></p>\n\n<p><strong>- regelmässiger Besuchsdienst (Einzelbesuche)</strong></p>\n\n<p><strong>- Unterstützung in der Nähstube (1xim Monat)</strong></p>\n\n<p><strong>Bitte wenden Sie sich an unser Awo Büro Aktiv in Kassel Telefon 0561/9284-238 </strong></p>\n\n<p><strong>Bürozeiten: DI und Do von 09:00h -12:00h ansonsten Anrufbeantworter.(Wir rufen Sie umgehend zurück)</strong></p><ul><li>Unfallversicherung</li><li>regelmäßige Informationen</li><li>kostenlose Veranstaltungen</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Anleitung durch Fachkräfte</li></ul>",
+  "description": "<p>Wir suchen Ehrenamtliche, die den alten Menschen in liebevoller Weise den Kontakt zum normalen Leben und Alltag vermitteln. Sie helfen mit, die Lebensqualität der Altenheimbewohner wesentlich zu verbessern, in dem Sie einen Bewohner regelmäßig besuchen oder Unterhaltung für eine Gruppe von alten Menschen anbieten. Sie können sich in folgenden Häusern engagieren.</p>\n\n<p>Sie sollten kommunikativ sein und gut zuhören können, musikalisch sein oder leidenschaftlich gerne spielen. Vielleicht haben Sie einen lieben Hund und</p>\n\n<p>möchten mit diesem gerne pflegebedürftige Menschen besuchen oder Sie haben andere eigene Ideen. Für jeden wird sich hier das Richtige finden!</p>\n\n<p><strong>- Unterstützung bzw selbstständige Durchführung von Gruppenangeboten</strong></p>\n\n<p><strong>- Unterstützung bei der Gartenarbeit</strong></p>\n\n<p><strong>- regelmässiger Besuchsdienst (Einzelbesuche)</strong></p>\n\n<p><strong>- Unterstützung in der Nähstube (1xim Monat)</strong></p>\n\n<p><strong>Bitte wenden Sie sich an unser Awo Büro Aktiv in Kassel Telefon 0561/9284-238 </strong></p>\n\n<p><strong>Bürozeiten: DI und Do von 09:00h -12:00h ansonsten Anrufbeantworter.(Wir rufen Sie umgehend zurück)</strong></p><ul><li>Unfallversicherung</li>\n\t<li>regelmäßige Informationen</li>\n\t<li>kostenlose Veranstaltungen</li>\n\t<li>Fortbildung/Qualifizierungsangebote</li>\n\t<li>Erstattung entstandener Kosten</li>\n\t<li>Anleitung durch Fachkräfte</li></ul>",
   "carrier": {
     "latitude": 51.3171,
     "longitude": 9.49561,
@@ -551,10 +551,10 @@ subscribe to the change-log newsletter so we can inform you about upcomming chan
   "imported_from": "aktion_mensch",
   "import_information": {
     "created_at": "2013-03-15T00:00:00+01:00",
-    "updated_at": "2015-01-13T00:00:00+01:00",
+    "updated_at": "2015-04-17T00:00:00+02:00",
     "import_type": "Bettertime::AktionMensch::Import",
     "import_id": "fn-452",
-    "imported_at": "2015-01-21T01:30:26+01:00",
+    "imported_at": "2015-04-20T03:07:41+02:00",
     "links": [
 
     ]

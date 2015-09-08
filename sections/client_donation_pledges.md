@@ -2,7 +2,7 @@
 # Client Donation Pledges
 
 ```Rebol
-POST https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/1114/donation_pledges.json
+POST http://jop.betterplace.dev/de/api_v4/clients/volksfreund/projects/1114/donation_pledges.json
 ```
 
 Submit a donation pledge into the system. This will be transformed into
@@ -241,7 +241,7 @@ information about it can be gathered.
   "links": [
     {
       "rel": "location",
-      "href": "https://api.betterplace.org/de/api_v4/clients/some_client/client_donations/666-a-reference"
+      "href": "http://jop.betterplace.dev/de/api_v4/clients/some_client/client_donations/666-a-reference"
     }
   ]
 }

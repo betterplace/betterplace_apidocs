@@ -2,7 +2,7 @@
 # Client-project tags list
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
+GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -106,7 +106,7 @@ that where tagged with this tag.
   "data": [
     {
       "tag": "Trier",
-      "projects_count": 205,
+      "projects_count": 209,
       "links": [
         {
           "rel": "projects",
@@ -116,7 +116,7 @@ that where tagged with this tag.
     },
     {
       "tag": "KinderJugendliche",
-      "projects_count": 213,
+      "projects_count": 216,
       "links": [
         {
           "rel": "projects",
@@ -126,7 +126,7 @@ that where tagged with this tag.
     },
     {
       "tag": "Familien",
-      "projects_count": 109,
+      "projects_count": 108,
       "links": [
         {
           "rel": "projects",

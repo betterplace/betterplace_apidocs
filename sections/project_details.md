@@ -2,7 +2,7 @@
 # Project Details ⇄ [List](projects_list.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/projects/1114.json
+GET http://jop.betterplace.dev/de/api_v4/projects/1114.json
 ```
 
 The details of a betterplace.org project (donate money).
@@ -50,7 +50,9 @@ Use this resource like `/clients/PERMALINK/projects/ID.json`
       <th align="left">created_at</th>
       <td>string</td>
       <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone)</td>
+      <td>DateTime (ISO8601 with Timezone) when the project was created by the
+project manager.
+</td>
     </tr>
     <tr>
       <th align="left">updated_at</th>
@@ -133,7 +135,19 @@ betterplace.org instead!
       <th align="left">completed_at</th>
       <td>string</td>
       <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone) when the project was completed</td>
+      <td>DateTime (ISO8601 with Timezone) of the moment the project was fully
+funded (100% progress_percentage).
+An uncompleted project may be already closed, see closed_at for details.
+</td>
+    </tr>
+    <tr>
+      <th align="left">closed_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the project was closed by the
+project manager. A closed project does not have to be completed (fully
+funded), see completed_at for details.
+</td>
     </tr>
     <tr>
       <th align="left">open_amount_in_cents</th>
@@ -569,26 +583,27 @@ set for organisations.
 {
   "id": 1114,
   "created_at": "2009-03-10T11:12:16+01:00",
-  "updated_at": "2015-05-06T09:16:46+02:00",
+  "updated_at": "2015-09-08T09:54:39+02:00",
   "latitude": 34.531617284782,
   "longitude": 69.13581752939456,
   "street": "Taimani, behind Qasemi Winhouse",
   "zip": "",
   "city": "Kabul",
   "country": "Afghanistan",
-  "title": "Skateistan Afghanistan",
-  "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important. <br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
+  "title": "Skateistan Afghanistan ist ein wirklich tolles Projekt, das man jada",
+  "description": "zwei Mädchen aus unserer Hilfsorganisation in Peru angefahren worden sind. Eines der beiden kam mit einem Bruch davon, während Vanesa seit diesem Tag im Koma liegt. Sie erlitt ein Schädelhirntrauma und musste intubiert werden. Seit dem hängt sie an Maschinen.",
   "tax_deductible": true,
-  "donations_prohibited": false,
+  "donations_prohibited": true,
   "completed_at": null,
-  "open_amount_in_cents": 807942,
-  "positive_opinions_count": 685,
+  "closed_at": "2015-09-08T09:54:38+02:00",
+  "open_amount_in_cents": 625442,
+  "positive_opinions_count": 708,
   "negative_opinions_count": 0,
-  "donor_count": 538,
-  "progress_percentage": 84,
+  "donor_count": 542,
+  "progress_percentage": 88,
   "incomplete_need_count": 1,
-  "completed_need_count": 81,
-  "blog_post_count": 88,
+  "completed_need_count": 86,
+  "blog_post_count": 91,
   "contact": {
     "name": "E. Kinast",
     "picture": {
@@ -618,15 +633,14 @@ set for organisations.
   "carrier": {
     "name": "Skateistan",
     "picture": {
-      "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
+          "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_betterplace-logo.png"
         },
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
+          "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_betterplace-logo.png"
         }
       ]
     },
@@ -638,31 +652,30 @@ set for organisations.
     ]
   },
   "profile_picture": {
-    "fallback": true,
     "links": [
       {
         "rel": "fill_960x500",
-        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
+        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_11157412_929236840430211_3778128688097836974_o.jpg"
       },
       {
         "rel": "fill_730x380",
-        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_730x380_original_girls-merza-sm.jpg"
+        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_730x380_11157412_929236840430211_3778128688097836974_o.jpg"
       },
       {
         "rel": "fill_618x322",
-        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
+        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_11157412_929236840430211_3778128688097836974_o.jpg"
       },
       {
         "rel": "fill_410x214",
-        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_410x214_original_girls-merza-sm.jpg"
+        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_410x214_11157412_929236840430211_3778128688097836974_o.jpg"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
+        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_11157412_929236840430211_3778128688097836974_o.jpg"
       },
       {
         "rel": "original",
-        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
+        "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_11157412_929236840430211_3778128688097836974_o.jpg"
       }
     ]
   },
@@ -674,7 +687,7 @@ set for organisations.
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan"
+      "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan-ist-ein-wirklich-tolles-projekt-das-man-jada"
     },
     {
       "rel": "opinions",

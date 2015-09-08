@@ -2,7 +2,7 @@
 # Client Donations List ⇄ [Details](client_donation_details.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
+GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -158,9 +158,9 @@ that is associated with this donation.
 
 ```json
 {
-  "total_entries": 11482,
+  "total_entries": 11758,
   "offset": 0,
-  "total_pages": 3828,
+  "total_pages": 3920,
   "current_page": 1,
   "per_page": 3,
   "data": [

@@ -2,7 +2,7 @@
 # Project Blog Post Details ⇄ [List](blog_posts_list.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/projects/1114/blog_posts/88972.json
+GET http://jop.betterplace.dev/de/api_v4/projects/1114/blog_posts/88972.json
 ```
 
 The details of a betterplace.org project blog post.
@@ -303,7 +303,7 @@ access rights in order to see this information.
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan/news/88972"
+      "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan-ist-ein-wirklich-tolles-projekt-das-man-jada/news/88972"
     },
     {
       "rel": "documentation",

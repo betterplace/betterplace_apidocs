@@ -2,7 +2,7 @@
 # Opinion Details ⇄ [List](opinions_list.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/projects/38/opinions/22.json
+GET http://jop.betterplace.dev/de/api_v4/projects/38/opinions/22.json
 ```
 
 The details of a betterplace.org opinion.
@@ -76,7 +76,14 @@ to make sure you only request data that is associated with one of your projects.
       <th align="left">donated_amount_in_cents</th>
       <td>number</td>
       <td>5000</td>
-      <td>If the opinion was created as part of a donation, this shows the opinions text</td>
+      <td>The amount donated, but only if the user allowed the amount to be
+visible. Most donation forms allow the donor to specify if they
+want their amount to be visible. As a default, the donated amount
+is visible.
+
+Known issue: For forwarding donations (money that is formwareded from a fundraising event to a project)
+this field is always empty, which is wrong.
+</td>
     </tr>
     <tr>
       <th align="left">score</th>
@@ -103,7 +110,7 @@ PlainOpinions and VisitorOpinion require a logged in user.
       <td>null &#124; string</td>
       <td>"This is a great project. In spring 2007 I travelled around the area together with my children and …"</td>
       <td>An optional message users can provide to tell others
-why they like or dislike this project
+why they like or dislike this project.
 </td>
     </tr>
   </table>

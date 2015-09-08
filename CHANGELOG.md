@@ -3,10 +3,32 @@ All notable changes to the betterplace.org API v4 will be documented in this
 file. Notifications about changes will also be send to the [mailing list for
 service announcements](README.md#mailing-list-for-service-announcements).
 
+## 2015-08-28
+### Added
+- Added ```closed_at``` datetime to
+  [project details](sections/project_details.md).
+- Extended documentation for created_at and completed_at in 
+  [project details](sections/project_details.md).
+
+## 2015-07-30
+### FIXED
+- Documentation wording for donor opinions ```facets=has_donation:true/false``` and ```donated_amount_in_cents```.
+  The documentation is more detailed now and also includes two know issues where donor opinions do not behave
+  as expected.
+
+
+## 2015-06-17
+### Deprecated
+- The url params for the ThirdPartyApp custom donation form changed:
+ - ```donation_presenter[some_value]=123``` is deprecated now. Please update your app until 12/2015.
+ - ```some_value=123``` is the new way [as described in the documentation](donation_form/third_party_app_donation_form.md).
+
+
 ## 2015-04-28
 ### Added
 - Added API endpoint for clients to query donor data if permission was granted. See details at
   [**Client** Donor Contact Data](sections/donor_contact_data_details.md)
+
 
 ## 2015-04-07
 ### Added
@@ -17,6 +39,7 @@ service announcements](README.md#mailing-list-for-service-announcements).
 
 ## Deprecated
 - [**Client** Details](sections/client_details.md): All statistic values. This end point will be removed after 31.5.2015
+
 
 ## 2015-03-05
 ### Added
@@ -43,11 +66,6 @@ service announcements](README.md#mailing-list-for-service-announcements).
   - **profile_picture:** fill_618x322, fill_270x141
   - **image:** fill_618x322, fill_270x141, original, thumb, medium, regular
 
-### Removed
-- Nothing.
-
-### Fixed
-- Nothing.
 
 ## 2015-02-16
 ### Added
@@ -60,9 +78,6 @@ service announcements](README.md#mailing-list-for-service-announcements).
 - Authentication via <code>api_token</code> parameter and <code>Api-Token</code> header is
   deprecated in favor of using basic authentication.
 
-### Removed
-- Nothing.
-
 ### Fixed
 - Reworked order and hierarchy in readme.
 
@@ -72,15 +87,6 @@ service announcements](README.md#mailing-list-for-service-announcements).
 - Added the <code>around</code> parameter for project and volunteering
   listings, that sorts by distance to its value.
 
-### Deprecated
-- Nothing.
-
-### Removed
-- Nothing.
-
-### Fixed
-- Nothing.
-
 
 ## 2014-11-18
 
@@ -88,29 +94,11 @@ service announcements](README.md#mailing-list-for-service-announcements).
 - Fallback flag for profile pictures to indicate whether the given picture is a
   default picture or was uploaded by the user
 
-### Deprecated
-- Nothing.
-
-### Removed
-- Nothing.
-
-### Fixed
-- Nothing.
-
 
 ## 2014-09-05
 
 ### Added
 - Clarify the order behaviour for fundraising challenge results.
-
-### Deprecated
-- Nothing.
-
-### Removed
-- Nothing.
-
-### Fixed
-- Nothing.
 
 
 ## 2014-08-14
@@ -122,14 +110,8 @@ service announcements](README.md#mailing-list-for-service-announcements).
 - Add two more websites to "Example Integrations" for ThidPartyApp Donation
   Form
 
-### Deprecated
-- Nothing.
-
 ### Removed
 - Previous Changelog in README
-
-### Fixed
-- Nothing.
 
 
 
@@ -137,15 +119,6 @@ service announcements](README.md#mailing-list-for-service-announcements).
 
 ### Added
 - Add Fundraising Challenge to API and Documentation
-
-### Deprecated
-- Nothing.
-
-### Removed
-- Nothing.
-
-### Fixed
-- Nothing.
 
 
 
@@ -158,10 +131,7 @@ This is the aggrgated changelog for all changes for this time interval.
 * 2013-05-15: Opinions have a link to the project now. All API-link are "api.betterplace.org" now (not www. anymore). Opinions have have a facets=has_message-Feature now.
 * 2013-04-19: Change the naming of api-docu-files to follow rails-pluralization-convention.
 * 2013-04-19: Added 'client project-tag list' (a list of all project-tags for a client) and 'client project-tag projects list' (a list of all projects for a client-project-tag).
-* 2013-04-17: Add project pictures API. Please note the DEPRICATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are deprecated and therefore renamed.)
-
-### Deprecated
-- Nothing.
+* 2013-04-17: Add project pictures API. Please note the DEPRECATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are deprecated and therefore renamed.)
 
 ### Removed
 * 2014-03-04: Remove all deprecated picture links from responses.
@@ -183,14 +153,8 @@ This is the aggrgated changelog for all changes for this time interval.
 * 2012-03-13: Update TOC, fix opinions-details and -list response, fix empty documentation (@tordans)
 * 2012-03-12: Several updates to readme, updates to descriptions for clients, updated opinions-docu, added know-issues and changelog sections (@tordans)
 
-### Deprecated
-- Nothing.
-
 ### Removed
 * 2012-05~15: Removed opinion.with_donation
-
-### Fixed
-- Nothing.
 
 
 
@@ -199,22 +163,13 @@ This is the aggrgated changelog for all changes for this time interval.
 ### Added
 - Initial version (@betterplace)
 
-### Deprecated
-- Nothing.
-
-### Removed
-- Nothing.
-
-### Fixed
-- Nothing.
-
 
 
 ---
 
-# Vorlage
+# Template
 
-## 2014-0x-xx
+## 201x-0x-xx
 
 ### Added
 - Nothing.

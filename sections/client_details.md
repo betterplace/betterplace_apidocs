@@ -2,7 +2,7 @@
 # Client Details
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund.json
+GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -195,14 +195,14 @@ part of you client projects list.
 
 ```json
 {
-  "donated_amount_in_cents": 143535560,
-  "pool_balance_in_cents": 8341137,
-  "open_amount_in_cents": 22341785,
-  "requested_amount_in_cents": 165877345,
-  "projects_count": 0,
-  "client_donated_amount_in_cents": 107270688,
+  "donated_amount_in_cents": 153081612,
+  "pool_balance_in_cents": 8592940,
+  "open_amount_in_cents": 26200685,
+  "requested_amount_in_cents": 179282297,
+  "projects_count": 338,
+  "client_donated_amount_in_cents": 110263382,
   "client_matched_amount_in_cents": 0,
-  "client_donations_count": 11482,
+  "client_donations_count": 11758,
   "links": [
     {
       "rel": "projects",

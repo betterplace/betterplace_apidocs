@@ -2,7 +2,7 @@
 # Project Need Details ⇄ [List](needs_list.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/projects/1114/needs/59220.json
+GET http://jop.betterplace.dev/de/api_v4/projects/1114/needs/59220.json
 ```
 
 The details of a betterplace.org project need (donate money).
@@ -153,20 +153,20 @@ offline donations and also(!) external donations)
 
 ```json
 {
-  "id": 101047,
-  "created_at": "2015-01-23T10:55:07+01:00",
-  "updated_at": "2015-05-06T09:15:45+02:00",
-  "title": "Testbedarf MJO III",
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium ",
+  "id": 114551,
+  "created_at": "2015-09-03T14:33:56+02:00",
+  "updated_at": "2015-09-03T14:33:57+02:00",
+  "title": "sefdsfwdfsdf",
+  "description": "adsf adsfadsfds af",
   "completed": false,
-  "progress_percentage": 19.2,
-  "donated_amount_in_cents": 191958,
-  "open_amount_in_cents": 807942,
-  "requested_amount_in_cents": 999900,
+  "progress_percentage": 6.17,
+  "donated_amount_in_cents": 41158,
+  "open_amount_in_cents": 625442,
+  "requested_amount_in_cents": 666600,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/101047.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/114551.json"
     },
     {
       "rel": "project",
@@ -174,12 +174,12 @@ offline donations and also(!) external donations)
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/de/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=101047",
+      "href": "https://www.betterplace.org/de/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=114551",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/de/projects/1114/donations/new?earmark_id=101047"
+      "href": "https://www.betterplace.org/de/projects/1114/donations/new?earmark_id=114551"
     }
   ]
 }

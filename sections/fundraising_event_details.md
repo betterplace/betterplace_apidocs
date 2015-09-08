@@ -2,7 +2,7 @@
 # Fundraising Event Details ⇄ [List](fundraising_events_list.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/fundraising_events/19267.json
+GET http://jop.betterplace.dev/de/api_v4/fundraising_events/19267.json
 ```
 
 The details of a betterplace.org fundraising events (donate money).
@@ -316,14 +316,14 @@ access rights in order to see this information.
 {
   "id": 19267,
   "created_at": "2014-09-23T21:17:06+02:00",
-  "updated_at": "2015-01-09T12:26:03+01:00",
+  "updated_at": "2015-06-28T11:32:11+02:00",
   "title": "Gemeinsam gegen Ebola: Deine Spende für Westafrika",
-  "description": "Das Ebola-Virus ist für uns* in Westafrika allgegenwärtig: Schüttelt man zur Begrüßung noch die Hand, obwohl die Regierungen davon abraten? Tritt man die Dienstreise in das vom Virus betroffene Nigeria an? Droht die Quarantäne, wenn man bei der Ausreise aus der Region unter Erkältung und Fieber leidet? <br /><br />Für die Menschen in Sierra Leone, Liberia und Guinea sind das Luxusprobleme. Dort ist ein normaler Alltag nicht mehr möglich. Im Familienkreis oder der Nachbarschaft gibt es möglicherweise Tote zu beklagen. Der Zugang zu Gesundheitsdienstleistungen ist, auch für andere häufig auftretende Krankheiten wie Malaria, erschwert und kann teilweise nicht mehr gewährleistet werden. <br /><br />Viele Ärzte und Krankenschwestern sind selbst gestorben oder haben Angst, sich selbst anzustecken, da es an grundsätzlichen Dingen wie Schutzkleidung und Arzneimitteln fehlt. Unsere Spenden unterstützen Action Medeor beider Ausrüstung zweier neu aufgebauter Isolierstationen in Monrovia, Liberia.<br /><br />Die internationale Gemeinschaft reagiert nur sehr langsam – obwohl das Virus bereits seit Anfang des Jahres mehr als 2500 Menschen den Tod gekostet hat. Die langfristigen Folgen für die Volkswirtschaften, die Gesundheitssysteme und das Zusammenleben der Menschen in der Region sind verheerend. <br /><br />Wir müssen jetzt handeln, um den Menschen vor Ort und ihren Helfern die notwendigen Materialien zukommen zu lassen. Wir denken dabei auch an unsere Freunde hier in der Region, die wir auf Dienstreisen kennen gelernt haben oder die als Ärzte in Alarmbereitschaft versetzt wurden. Helft uns dabei, den Menschen in ihrer Notlage zu helfen: Teilt diesen Link mit anderen und spendet, auch kleine Beiträge sind willkommen! <br /><br />* Jonas lebt seit mehr als zwei Jahren im Senegal, Johanna war für knapp zwei Monate im benachbarten Gambia. Wir beide haben in den letzten Wochen die Nachrichtenlage verfolgt und mit den Menschen vor Ort über die Unsicherheit gesprochen. <br /><br />Bild: Jonas Wipfler, Liberia, 2013",
+  "description": "Das Ebola-Virus ist für uns* in Westafrika allgegenwärtig: Schüttelt man zur Begrüßung noch die Hand, obwohl die Regierungen davon abraten? Tritt man die Dienstreise in das vom Virus betroffene Nigeria an? Droht die Quarantäne, wenn man bei der Ausreise aus der Region unter Erkältung und Fieber leidet? <br><br>Für die Menschen in Sierra Leone, Liberia und Guinea sind das Luxusprobleme. Dort ist ein normaler Alltag nicht mehr möglich. Im Familienkreis oder der Nachbarschaft gibt es möglicherweise Tote zu beklagen. Der Zugang zu Gesundheitsdienstleistungen ist, auch für andere häufig auftretende Krankheiten wie Malaria, erschwert und kann teilweise nicht mehr gewährleistet werden. <br><br>Viele Ärzte und Krankenschwestern sind selbst gestorben oder haben Angst, sich selbst anzustecken, da es an grundsätzlichen Dingen wie Schutzkleidung und Arzneimitteln fehlt. Unsere Spenden unterstützen Action Medeor beider Ausrüstung zweier neu aufgebauter Isolierstationen in Monrovia, Liberia.<br><br>Die internationale Gemeinschaft reagiert nur sehr langsam – obwohl das Virus bereits seit Anfang des Jahres mehr als 2500 Menschen den Tod gekostet hat. Die langfristigen Folgen für die Volkswirtschaften, die Gesundheitssysteme und das Zusammenleben der Menschen in der Region sind verheerend. <br><br>Wir müssen jetzt handeln, um den Menschen vor Ort und ihren Helfern die notwendigen Materialien zukommen zu lassen. Wir denken dabei auch an unsere Freunde hier in der Region, die wir auf Dienstreisen kennen gelernt haben oder die als Ärzte in Alarmbereitschaft versetzt wurden. Helft uns dabei, den Menschen in ihrer Notlage zu helfen: Teilt diesen Link mit anderen und spendet, auch kleine Beiträge sind willkommen! <br><br>* Jonas lebt seit mehr als zwei Jahren im Senegal, Johanna war für knapp zwei Monate im benachbarten Gambia. Wir beide haben in den letzten Wochen die Nachrichtenlage verfolgt und mit den Menschen vor Ort über die Unsicherheit gesprochen. <br><br>Bild: Jonas Wipfler, Liberia, 2013",
   "tax_deductible": true,
-  "donations_prohibited": false,
-  "closed_at": null,
+  "donations_prohibited": true,
+  "closed_at": "2015-06-28T11:32:11+02:00",
   "donor_count": 124,
-  "donated_amount_in_cents": 850600,
+  "donated_amount_in_cents": 858280,
   "requested_amount_in_cents": null,
   "progress_percentage": null,
   "contact": {

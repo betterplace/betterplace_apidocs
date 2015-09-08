@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=tax_deductible%3Atrue&order=rank%3ADESC&q=Die+Eckerts&scope=location
+GET http://jop.betterplace.dev/de/api_v4/fundraising_events.json?facets=tax_deductible%3Atrue&order=rank%3ADESC&q=Die+Eckerts&scope=location
 ```
 
 A list of betterplace.org fundraising events (donate money).
@@ -358,18 +358,18 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 1,
+  "total_entries": 4221,
   "offset": 0,
-  "total_pages": 1,
+  "total_pages": 1407,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
       "id": 401,
       "created_at": "2008-09-12T16:50:38+02:00",
-      "updated_at": "2015-04-10T21:02:34+02:00",
+      "updated_at": "2015-09-04T13:09:14+02:00",
       "title": "Die Eckerts",
-      "description": "In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.",
+      "description": "In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.",
       "tax_deductible": true,
       "donations_prohibited": false,
       "closed_at": null,
@@ -457,6 +457,198 @@ access rights in order to see this information.
         {
           "rel": "new_donation",
           "href": "https://www.betterplace.org/de/fundraising-events/401/donations/new"
+        }
+      ]
+    },
+    {
+      "id": 13224,
+      "created_at": "2013-01-31T15:09:18+01:00",
+      "updated_at": "2015-09-04T13:19:04+02:00",
+      "title": "Matthiass Spendenaktion",
+      "description": "Schön, dass Du meine Spendenaktion bei betterplace.org besuchst! Das Spenden über betterplace.org ist sicher und unkompliziert. betterplace.org leitet das von uns zusammen gesammelte Geld weiter. Wenn Du willst, kannst Du das sogar nachverfolgen: Denn betterplace.org ist nicht nur klasse, um mit einer Aktion Spenden zu sammeln, sondern - durch seine Transparenz - auch toll, um zu sehen, was die Hilfe beim Projekt vor Ort bewirkt.<br><br>Deshalb freue ich mich um so mehr, wenn Du jetzt hier an meine Aktion spendest! Vielen Dank.",
+      "tax_deductible": false,
+      "donations_prohibited": false,
+      "closed_at": null,
+      "donor_count": 0,
+      "donated_amount_in_cents": 0,
+      "requested_amount_in_cents": null,
+      "progress_percentage": null,
+      "contact": {
+        "name": "M. Eckert",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/matthias_e6"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/296030/contact_data.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_960x500_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_730x380_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_618x322_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_410x214_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_270x141_default.betterplace.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/crop_original_default.betterplace.jpg"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224.json"
+        },
+        {
+          "rel": "featured_projects",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224/featured_projects.json"
+        },
+        {
+          "rel": "forwardings",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224/forwardings.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/matthias-eckerts-spendenaktion"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/de/fundraising-events/13224/client_donations/new?client_id=%7Bclient_id%7D",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/de/fundraising-events/13224/donations/new"
+        }
+      ]
+    },
+    {
+      "id": 5947,
+      "created_at": "2011-01-19T12:48:33+01:00",
+      "updated_at": "2015-09-04T13:12:41+02:00",
+      "title": "Moritz hat Geburtstag, wünscht sich Spenden!",
+      "description": "Schön, dass Du meine Spendenaktion bei betterplace.org besuchst! Das Spenden über betterplace.org ist sicher und unkompliziert. betterplace.org leitet das von uns zusammen gesammelte Geld weiter. Wenn Du willst, kannst Du das sogar nachverfolgen: Denn betterplace.org ist nicht nur klasse, um mit einer Aktion Spenden zu sammeln, sondern - durch seine Transparenz - auch toll, um zu sehen, was die Hilfe beim Projekt vor Ort bewirkt.<br><br>Deshalb freue ich mich um so mehr, wenn Du jetzt hier an meine Aktion spendest! Vielen Dank.",
+      "tax_deductible": true,
+      "donations_prohibited": false,
+      "closed_at": null,
+      "donor_count": 0,
+      "donated_amount_in_cents": 0,
+      "requested_amount_in_cents": null,
+      "progress_percentage": null,
+      "contact": {
+        "name": "M. Eckert",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/moritz_e4"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/152691/contact_data.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_960x500_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_730x380_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_618x322_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_410x214_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_270x141_default.betterplace.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/crop_original_default.betterplace.jpg"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/5947.json"
+        },
+        {
+          "rel": "featured_projects",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/5947/featured_projects.json"
+        },
+        {
+          "rel": "forwardings",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/5947/forwardings.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/moritz-eckerts-spendenaktion"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/de/fundraising-events/5947/client_donations/new?client_id=%7Bclient_id%7D",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/de/fundraising-events/5947/donations/new"
         }
       ]
     }

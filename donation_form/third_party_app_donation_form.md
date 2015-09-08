@@ -26,7 +26,7 @@ This feature is distinct from our [json-API v4](https://github.com/betterplace/b
 This is a typical user flow when you use the ThirdPartyApp custom donation form for organisations:
 
 1. A donor visits your web application
-2. You direct the user to you donation area
+2. You direct the user to your donation area
 3. … and from there to the custom donation form on betterplace.org
 4. The donation takes place on betterplace.org
 5. We redirect the user back to your page and provide callback parameters
@@ -77,7 +77,7 @@ After everything is set up by betterplace.org (see [How to get it](#how-to-get-i
 
 *Example:*
 <pre>
-https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablass&donation_presenter%5Bdonation_amount%5D=15&donation_presenter%5Bdonation_client_reference%5D=wZo2aZCjJHA2CONAXxIQHt
+https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablass&donation_amount=15&donation_client_reference=wZo2aZCjJHA2CONAXxIQHt
 </pre>
 
 <table>
@@ -117,7 +117,7 @@ https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablas
   </tr>
   <tr>
     <td>
-      <code>&donation_presenter[donation_amount]=6</code>
+      <code>&donation_amount=6</code>
     </td>
     <td>
       OPTIONAL: You can pre-set the donation amount in euro
@@ -133,7 +133,7 @@ https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablas
   </tr>
   <tr>
     <td>
-      <code>&donation_presenter[donation_client_reference]=123</code>
+      <code>&donation_client_reference=123</code>
     </td>
     <td>
       OPTIONAL – but this is basically why you would want to use the ThirdPartyApp donation form in the first place! It allows you to give each donation/donor a unique ID in your application. We will send this ID back to you via the callback url. This way you can track which donation went through. This reference should be url safe, e.g. only consist of alphanumeric symbols like a SHA-1 Hash.
@@ -179,7 +179,7 @@ https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_r
       <code>&donation_client_reference=123123</code>
     </td>
     <td>
-      The same value that you provided when opening the donation form via <code>donation_presenter[donation_client_reference]</code>
+      The same value that you provided when opening the donation form via <code>donation_client_reference</code>
     </td>
   </tr>
   <tr>
@@ -196,7 +196,7 @@ https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_r
       <code>&amount=6</code>
     </td>
     <td>
-      The amount that was actually donated. This corresponts to <code>donation_presenter[donation_amount]</code> unless the user changed it.
+      The amount that was actually donated. This corresponts to <code>donation_amount</code> unless the user changed it.
     </td>
   </tr>
   <tr>

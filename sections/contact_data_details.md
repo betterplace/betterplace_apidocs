@@ -2,12 +2,16 @@
 # User Contact Data Details
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/users/250285/contact_data.json
+GET http://jop.betterplace.dev/de/api_v4/users/250285/contact_data.json
 ```
 
 Name and email for the given user.
 
-**:lock: Only available if authenticated as a client.**
+Used by api clients to access data about
+the managers of projects that belog to this
+client.
+
+**:lock: Only available if authenticated as a client and only if this clients has permissions to access this data.**
 See [betterplace.org clients](../README.md#client-api).
 
 

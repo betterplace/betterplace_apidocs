@@ -14,7 +14,7 @@ at developers@betterplace.org.
 
 
 #### Mailing list for service announcements
-Please send an email to tjo@betterplace.org to
+Please send an email to product@betterplace.org to
 subscribe to the api-v4-mailing list to receive service announcements
 about updates and scheduled downtimes.
 
@@ -301,6 +301,9 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 ### Example apps
 
 * The "Deutsch Tansanische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
+* [The "Förderverein Freie Netzwerke e.V."](http://foerderverein.freie-netzwerke.de/spenden/) uses this API to present their betterplace.org projects right on their website.
+* [The "Alfred-Kunze-Sportpark"](http://alfred-kunze-sportpark.de/teilziele.php) uses this API to present all needs for their one betterplace.org project right on their website.
+* [The "Earthship Tempelhof"](http://www.earthship-tempelhof.de/#spenden) uses this API to embed our integrated donation form (iframe) with more information about the project status.
 * _Please send us your sites to developers@betterplace.org_
 
 

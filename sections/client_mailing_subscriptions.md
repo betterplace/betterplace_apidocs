@@ -2,7 +2,7 @@
 # Client Mailing Subscriptions
 
 ```Rebol
-POST https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/4425/mailing_subscriptions.json
+POST http://jop.betterplace.dev/de/api_v4/clients/volksfreund/projects/4425/mailing_subscriptions.json
 ```
 
 Create or update a mailing subscriptions for a project.

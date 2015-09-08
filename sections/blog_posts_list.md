@@ -2,7 +2,7 @@
 # Project Blog Posts List ⇄ [Details](blog_post_details.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/projects/1114/blog_posts.json
+GET http://jop.betterplace.dev/de/api_v4/projects/1114/blog_posts.json
 ```
 
 A list of betterplace.org projects blog posts.
@@ -260,13 +260,75 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 0,
+  "total_entries": 1,
   "offset": 0,
-  "total_pages": 0,
+  "total_pages": 1,
   "current_page": 1,
   "per_page": 2,
   "data": [
+    {
+      "id": 117202,
+      "created_at": "2015-09-03T17:11:56+02:00",
+      "updated_at": "2015-09-03T17:11:56+02:00",
+      "lang": "de",
+      "type": "BlogPost",
+      "title": "Für diese Bedarfe habe ich eine (Teil-)Auszahlung veranlasst:",
+      "body": "<p></p>\n<p>In welcher Sprache soll diese Auszahlungs-Neuigkeit veröffentlicht werden?</p>\n<br><p>In welcher Sprache soll diese Auszahlungs-Neuigkeit veröffentlicht werden?</p>\n<br><p>In welcher Sprache soll diese Auszahlungs-Neuigkeit veröffentlicht werden?</p>\n<br><p>In welcher Sprache soll diese Auszahlungs-Neuigkeit veröffentlicht werden?</p>\n<br><br><p></p>",
+      "payout": {
+        "needs": [
+          {
+            "need_title": "Heating costs for the Kabul skatepark for 2015",
+            "payout_amount_in_cents": 56050,
+            "links": [
 
+            ]
+          }
+        ],
+        "links": [
+
+        ]
+      },
+      "author": {
+        "name": "E. Kinast",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/erika_k2"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/130618/contact_data.json"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/blog_posts/117202.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan-ist-ein-wirklich-tolles-projekt-das-man-jada/news/117202"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
+        }
+      ]
+    }
   ]
 }
 ```

@@ -2,12 +2,18 @@
 # Donor Contact Data Details
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk/donor_contact_data.json
+GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk/donor_contact_data.json
 ```
 
 Name and email for the donor.
 
-**:lock: Only available if authenticated as a client.**
+This feature is based on a special checkbox that
+has to be integrated in the client donation form or
+on the postdonation page. Only users that give the
+explicit permission to provide the data to the client
+will be included.
+
+**:lock: Only available if authenticated as a client and only if this clients has permissions to access this data.**
 See [betterplace.org clients](../README.md#client-api).
 
 
@@ -82,9 +88,9 @@ See [betterplace.org clients](../README.md#client-api).
 
 ```json
 {
-  "first_name": "Patrick",
-  "last_name": "Jane",
-  "email": "product+mentalist@betterplace.org",
+  "first_name": "Peter",
+  "last_name": "Paul",
+  "email": "peter.paul@betterplace.org",
   "links": [
 
   ]
