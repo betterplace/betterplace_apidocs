@@ -100,8 +100,8 @@ values have been used for the query.
 Documented and supported filters are:
 <ul>
 <li><code>tax_deductible:true/false</code>
-<li><code>completed:true/false</code> (is this project fully financed?)
-<li><code>closed:true/false</code> (is this project closed by the manager?)
+<li><code>completed:true/false</code><br/>Is this project fully financed?
+<li><code>closed:true/false</code><br/>Is this project closed by the manager?
 <li><code>prohibit_donations:true/false</code>
 </ul>
 It is possible to set multiple facet filters.
