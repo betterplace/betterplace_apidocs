@@ -2,7 +2,7 @@
 # Client Donations List ⇄ [Details](client_donation_details.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
+GET https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

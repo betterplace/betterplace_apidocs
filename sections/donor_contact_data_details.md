@@ -2,7 +2,7 @@
 # Donor Contact Data Details
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk/donor_contact_data.json
+GET https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk/donor_contact_data.json
 ```
 
 Name and email for the donor.

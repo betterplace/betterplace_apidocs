@@ -2,7 +2,7 @@
 # Organisations List ⇄ [Details](organisation_details.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/organisations.json
+GET https://api.betterplace.org/de/api_v4/organisations.json
 ```
 
 A list of betterplace.org organisations.

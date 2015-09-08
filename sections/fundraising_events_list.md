@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/fundraising_events.json?facets=tax_deductible%3Atrue&order=rank%3ADESC&q=Die+Eckerts&scope=location
+GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=tax_deductible%3Atrue&order=rank%3ADESC&q=Die+Eckerts&scope=location
 ```
 
 A list of betterplace.org fundraising events (donate money).

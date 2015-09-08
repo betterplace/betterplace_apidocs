@@ -2,7 +2,7 @@
 # User Contact Data Details
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/users/250285/contact_data.json
+GET https://api.betterplace.org/de/api_v4/users/250285/contact_data.json
 ```
 
 Name and email for the given user.

@@ -2,7 +2,7 @@
 # Matching Funds List ⇄ [Details](matching_fund_details.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/matching_funds.json?facets=state%3Aactivated&project_id=1114
+GET https://api.betterplace.org/de/api_v4/matching_funds.json?facets=state%3Aactivated&project_id=1114
 ```
 
 A list of betterplace.org matching funds.

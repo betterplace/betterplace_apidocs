@@ -2,7 +2,7 @@
 # Fundraising Event Featured Projects List
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/fundraising_events/19267/featured_projects.json
+GET https://api.betterplace.org/de/api_v4/fundraising_events/19267/featured_projects.json
 ```
 
 A list of projects that are currently supported by the fundraising event.

@@ -2,7 +2,7 @@
 # Project Needs List ⇄ [Details](need_details.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/projects/1114/needs.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/needs.json
 ```
 
 A list of betterplace.org projects needs (donate money).

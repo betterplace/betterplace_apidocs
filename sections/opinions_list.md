@@ -2,7 +2,7 @@
 # Opinions List ⇄ [Details](opinion_details.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
+GET https://api.betterplace.org/de/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
 ```
 
 A list of betterplace.org projects opinions (donate money).

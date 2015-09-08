@@ -2,7 +2,7 @@
 # Project Blog Post Details ⇄ [List](blog_posts_list.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/projects/1114/blog_posts/88972.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/blog_posts/88972.json
 ```
 
 The details of a betterplace.org project blog post.

@@ -2,7 +2,7 @@
 # Project Details ⇄ [List](projects_list.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/projects/1114.json
+GET https://api.betterplace.org/de/api_v4/projects/1114.json
 ```
 
 The details of a betterplace.org project (donate money).

@@ -2,7 +2,7 @@
 # Fundraising Challenge: Contest Details
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/contests/1.json
+GET https://api.betterplace.org/de/api_v4/contests/1.json
 ```
 
 The details of a contest.

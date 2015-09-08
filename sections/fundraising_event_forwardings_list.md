@@ -2,7 +2,7 @@
 # Fundraising Event Forwardings List
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/fundraising_events/19267/forwardings.json
+GET https://api.betterplace.org/de/api_v4/fundraising_events/19267/forwardings.json
 ```
 
 A list of forwarings from the fundraising event to its projects.

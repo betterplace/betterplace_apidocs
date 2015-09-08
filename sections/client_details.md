@@ -2,7 +2,7 @@
 # Client Details
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund.json
+GET https://api.betterplace.org/de/api_v4/clients/volksfreund.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

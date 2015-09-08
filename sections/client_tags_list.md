@@ -2,7 +2,7 @@
 # Client tags list
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/clients/volksfreund/tags.json
+GET https://api.betterplace.org/de/api_v4/clients/volksfreund/tags.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

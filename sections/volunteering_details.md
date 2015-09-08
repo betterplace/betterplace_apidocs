@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/volunteering/18.json
+GET https://api.betterplace.org/de/api_v4/volunteering/18.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).

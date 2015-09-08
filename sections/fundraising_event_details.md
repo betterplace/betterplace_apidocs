@@ -2,7 +2,7 @@
 # Fundraising Event Details ⇄ [List](fundraising_events_list.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/fundraising_events/19267.json
+GET https://api.betterplace.org/de/api_v4/fundraising_events/19267.json
 ```
 
 The details of a betterplace.org fundraising events (donate money).

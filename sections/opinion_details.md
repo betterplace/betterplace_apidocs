@@ -2,7 +2,7 @@
 # Opinion Details ⇄ [List](opinions_list.md)
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/projects/38/opinions/22.json
+GET https://api.betterplace.org/de/api_v4/projects/38/opinions/22.json
 ```
 
 The details of a betterplace.org opinion.

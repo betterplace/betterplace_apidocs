@@ -2,7 +2,7 @@
 # Fundraising Challenge: Contest Results List
 
 ```Rebol
-GET http://jop.betterplace.dev/de/api_v4/contests/1/results.json
+GET https://api.betterplace.org/de/api_v4/contests/1/results.json
 ```
 
 A list of contest results.
