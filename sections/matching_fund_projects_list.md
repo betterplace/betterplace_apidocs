@@ -153,6 +153,18 @@ funded), see completed_at for details.
       <td>How many cents are needed to complete the project</td>
     </tr>
     <tr>
+      <th align="left">donated_amount_in_cents</th>
+      <td>number</td>
+      <td>12382</td>
+      <td>How many cents are donated already.
+This includes all donations that can be given to the project
+(direct donation, donations to needs,
+forwarding of organisation donation,
+forwarding of fundraising event donations,
+offline donations and also(!) external donations)
+</td>
+    </tr>
+    <tr>
       <th align="left">positive_opinions_count</th>
       <td>number</td>
       <td>13</td>
@@ -601,6 +613,7 @@ set for organisations.
       "completed_at": null,
       "closed_at": null,
       "open_amount_in_cents": 94000,
+      "donated_amount_in_cents": 2027500,
       "positive_opinions_count": 84,
       "negative_opinions_count": 0,
       "donor_count": 71,

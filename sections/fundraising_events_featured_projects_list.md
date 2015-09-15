@@ -155,6 +155,18 @@ funded), see completed_at for details.
       <td>How many cents are needed to complete the project</td>
     </tr>
     <tr>
+      <th align="left">donated_amount_in_cents</th>
+      <td>number</td>
+      <td>12382</td>
+      <td>How many cents are donated already.
+This includes all donations that can be given to the project
+(direct donation, donations to needs,
+forwarding of organisation donation,
+forwarding of fundraising event donations,
+offline donations and also(!) external donations)
+</td>
+    </tr>
+    <tr>
       <th align="left">positive_opinions_count</th>
       <td>number</td>
       <td>13</td>
@@ -589,7 +601,7 @@ set for organisations.
     {
       "id": 1114,
       "created_at": "2009-03-10T11:12:16+01:00",
-      "updated_at": "2015-09-08T09:54:39+02:00",
+      "updated_at": "2015-09-14T14:39:33+02:00",
       "latitude": 34.531617284782,
       "longitude": 69.13581752939456,
       "street": "Taimani, behind Qasemi Winhouse",
@@ -601,8 +613,9 @@ set for organisations.
       "tax_deductible": true,
       "donations_prohibited": true,
       "completed_at": null,
-      "closed_at": "2015-09-08T09:54:38+02:00",
+      "closed_at": "2015-09-14T14:39:32+02:00",
       "open_amount_in_cents": 625442,
+      "donated_amount_in_cents": 4668010,
       "positive_opinions_count": 708,
       "negative_opinions_count": 0,
       "donor_count": 542,
