@@ -347,7 +347,7 @@ Username, password and client-scope are provided as part of the contract with ou
 
 The local german newspaper "Trierischer Volksfreund"
 has it's own donation portal at ["Meine Hilfe zählt"](http://www.meine-hilfe-zaehlt.de/).
-All data are pulled from this api. In addition they use the betterplac.rog
+All data are pulled from this api. In addition they use the betterplace.org
 whitelabel donation form, which is another service betterplace.org provides for clients.
 
 
