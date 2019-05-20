@@ -71,7 +71,7 @@ about updates and scheduled downtimes.
 ### **Client API**
 
 1. **General Information**
-    1. General Information [↓ below](#client-api)
+    1. General Information [↓ below](#client-api-1)
     1. Client Projects [↓ below](#client-projects)
     1. Client Authentication [↓ below](#client-authentication)
     1. [**Client** Details](sections/client_details.md)
