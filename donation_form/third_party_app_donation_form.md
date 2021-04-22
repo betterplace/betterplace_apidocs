@@ -15,12 +15,15 @@ This feature is distinct from our [json-API v4](https://github.com/betterplace/b
 
 ### Example Integrations
 
+* [Gaunting Live](https://www.gauting.live/), to support culture in Gauting during the pandemic.
+
 * [Ablass App](http://www.ablass-app.de/), where you can clean your conscience.
 * [Tramprennen](https://tramprennen.org/) and [Floßrennen](http://flossrennen.tramprennen.org/) ([GitHub](https://github.com/Club-of-Roam/cor-mgmt)) is a race where you can support one of the teams.
-* [MADAide](http://madaide.org/?page_id=578), where you can donate to mark a specific piece of the football field with your name.
-* [Tierheim Berlin](http://www.tierheim-geschenke.de/), where you can view and donate to specific needs of the project.
 * _(Closed)_ [Donatify me](http://donatify.me/), where you can get Edward to do stuff for you.
+* _(Closed)_ [MADAide](http://madaide.org/?page_id=578), where you can donate to mark a specific piece of the football field with your name.
 * _(Closed)_ [Seeds of Kindness 3](http://yoursiblings.org/portico/seeds-of-kindness-3), where you get a mp3 download link after your donation. Also there is a leader board and referrer-system.
+* _(Closed)_ [Tierheim Berlin](http://www.tierheim-geschenke.de/), where you can view and donate to specific needs of the project.
+
 
 
 ### UserFlow
