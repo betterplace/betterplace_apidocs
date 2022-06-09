@@ -50,10 +50,6 @@ to api@betterplace.org.
     1. [Fundraising Event **Opinions** List](sections/opinions_list.md)
     1. [Fundraising Event **Featured Projects** List](sections/fundraising_events_featured_projects_list.md)
     1. [Fundraising Event **Forwarding** List](sections/fundraising_event_forwardings_list.md)
-1. **Volunteering**
-    1. [**Volunteering** List and Search](sections/volunteering_list.md)
-    1. [**Volunteering** Details](sections/volunteering_details.md)
-    1. [Volunteering **Inquiries**](sections/volunteering_inquiries.md)
 1. **Organisations**
     1. [**Organisations** List](sections/organisations_list.md)
     1. [**Organisation** Details](sections/organisation_details.md)
@@ -92,11 +88,6 @@ to api@betterplace.org.
     1. [**Client** Tags List](sections/client_tags_list.md)
     1. [**Client**-Tag Projects List](sections/client_tag_projects_list.md)
     1. [**Client**-Project Tags List](sections/client_project_tags_list.md)
-1. **Volunteering**
-    1. [**Client** Volunteering List and Search](sections/volunteering_list.md) – 
-      See client section [and "Client Volunteering Offers"](#client-api)
-    1. [**Client** Volunteering Details](sections/volunteering_details.md) – 
-      See client section [and "Client Volunteering Offers"](#client-api)
 
 ### **Organisation API**
 
@@ -353,16 +344,6 @@ Some URLs have a special scope for clients. Examples:
 
 If you request data for a project that is not part of the client
 projects, the API will return an HTTP error code `404`.
-
-
-### Client Volunteering Offers
-
-Clients volunteering offers are volunteering offers on betterplace.org
-that are associated with an api client
-as part of the services that betterplace.org provides for companies.
-This way clients can control what volunteering offers are visible on their external platform.
-
-It works the same way as with projects, see above (["Client Projects"](#client-projects)).
 
 
 ### Client Authentication

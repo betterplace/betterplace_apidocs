@@ -359,7 +359,32 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "title": "Skateistan in N24",
       "published_at": "2009-03-10T13:21:31+01:00",
       "body": "<p>Kommenden Freitag (13.03.), 12:30 Uhr, gibt es eine halbe Stunde Skateistan auf dem Nachrichtensender N24. Reinschauen lohnt sich!</p>",
-      "author": null,
+      "author": {
+        "id": 9238,
+        "name": "Kiana Schulz (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_bp1584570257_original_maxn_skate.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_bp1584570257_original_maxn_skate.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/9238"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/9238/contact_data.json"
+          }
+        ]
+      },
       "links": [
         {
           "rel": "self",
@@ -367,7 +392,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/1114-skateistan/news/3900#ppp-sticky-anchor"
+          "href": "https://www.betterplace.org/de/projects/1114-unterstuetze-skateistan-sport-bildung-fuer-kinder/news/3900#ppp-sticky-anchor"
         },
         {
           "rel": "documentation",
@@ -384,7 +409,32 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "title": "Mirwais",
       "published_at": "2009-03-11T20:46:27+01:00",
       "body": "<p>Wir haben unsere erste Unterstützung erfahren - vielen Dank dafür auch im Namen von Mirwais, der dadurch seine Arbeit für Skateistan fortsetzen kann. An dieser Stelle möchte ich Mirwais etwas näher vorstellen: </p>\r\n<p>INTERVIEW WITH Mirwais Ghulam Mohammad</p>\r\n<p>HOW DID YOU FIND OUT ABOUT SKATEBOARDING?\r\nI was washing cars in Macrorayan when I first saw Oliver, Sharna, Shams, Mirwais and Moneer skating. I left the car I was washing and went to join the other children playing on the skateboards. I really liked it the first time. From then on, every time I saw Oliver and the others riding their motorcycles piled high with skateboards I would leave the cars and go to them to practice skating. After some months, Oliver asked me to join the Skateistan team.</p>\r\n<p>WHAT WERE YOU DOING BEFORE JOINING THE SKATEISTAN TEAM? \r\nBefore joining Skateistan, I was washing cars for 7 years. I had a number of special customers who would look for me, four foreigners and eighteen Afghans. For a four-wheel drive, I would make 80 Afghanis (around 1 Euro) for one hours work. I wash between 3 and 4 cars on a good day but I have to pay 20% of my wages to the guards who work nearby so they could buy tobacco. They are much bigger than me! In winter it was an especially difficult job to clean the cars as it is often below freezing and it is hard to scrape the ice from under the cars.</p>\r\n<p>WHAT IS YOUR ROLE IN SKATEISTAN? \r\nI have been working for Skateistan for one and a half months. I am very happy in my job, I take care of the Skateistan office and guesthouse and make sure all the equipment is clean and oiled, ready for skating. When we teach the children, it is my job to help them as much as possible and make sure everyone is sharing the boards. I teach the boys new tricks and collect all the boards at the end of each session.</p>\r\n<p>WHAT DO YOU LIKE BEST ABOUT SKATEBOARDING?\r\nI like learning how to ollie, drop off ledges and skate fast around the transition of the fountain that we skate. My favourite trick is to ollie and I practice this as much as I can in my spare time. I can now ollie almost 20 cm off the ground.</p>\r\n<p>DO ANY OF YOUR SIBLINGS SKATE? \r\nTwo of my younger brothers are skating. They wanted to learn after watching me skate. Now I teach them how to drop into the fountain, how to ollie and how to skate fast around the transition of the fountain.</p>\r\n<p>WHAT DO YOU THINK OF SEEING FEMALE SKATEBOARDERS IN KABUL? \r\nI think it is good that there are girls skating. When I first saw the girls skating, it inspired me to try harder so I could be as good as them. Some of the girls skate better than the boys!</p>\r\n<p>WHAT WOULD YOU LIKE TO DO IN THE FUTURE? \r\nI would like to keep skateboarding and eventually become the champion skater of Afghanistan!</p>\r\n<p>Mirwais Ghulam Mohammad is 16 years old and has four brothers and three sisters.</p>",
-      "author": null,
+      "author": {
+        "id": 9238,
+        "name": "Kiana Schulz (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_bp1584570257_original_maxn_skate.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_bp1584570257_original_maxn_skate.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/9238"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/9238/contact_data.json"
+          }
+        ]
+      },
       "links": [
         {
           "rel": "self",
@@ -392,7 +442,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/1114-skateistan/news/3917#ppp-sticky-anchor"
+          "href": "https://www.betterplace.org/de/projects/1114-unterstuetze-skateistan-sport-bildung-fuer-kinder/news/3917#ppp-sticky-anchor"
         },
         {
           "rel": "documentation",

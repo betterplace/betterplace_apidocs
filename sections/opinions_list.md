@@ -431,7 +431,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "matched": false,
       "score": "positive",
       "author": {
-        "name": "Joris Mayer",
+        "name": "Logan Jackson",
         "picture": {
           "links": [
             {

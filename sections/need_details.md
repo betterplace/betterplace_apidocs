@@ -235,13 +235,13 @@ Link to the regular donation form.
 {
   "id": 357682,
   "created_at": "2021-11-23T13:43:53+01:00",
-  "updated_at": "2022-01-15T07:39:48+01:00",
+  "updated_at": "2022-05-06T15:15:05+02:00",
   "title": "Skateistan: A New Chapter",
   "description": "Unser Ziel: im Laufe des nächsten Jahres auf 20 Standorte zu expandieren und jede Woche 4 500 Schüler zu erreichen. Helft uns, das nächste Kapitel der Geschichte von Skateistan zu schreiben!",
   "completed": false,
-  "progress_percentage": 19.99,
-  "donated_amount_in_cents": 99935,
-  "open_amount_in_cents": 400065,
+  "progress_percentage": 21.99,
+  "donated_amount_in_cents": 109935,
+  "open_amount_in_cents": 390065,
   "requested_amount_in_cents": 500000,
   "links": [
     {

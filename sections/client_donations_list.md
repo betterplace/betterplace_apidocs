@@ -378,7 +378,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "state": "confirmed",
       "donor": null,
       "message": "Gemeinsam für Kinder!",
-      "token": "c6f6b757e7a8a1d6ebe3",
+      "token": "c65e1cd3ff166c67adf7",
       "client_reference": null,
       "created_at": "2011-12-13T13:48:15+01:00",
       "receiver_type": "FundraisingEvent",
@@ -391,7 +391,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/c6f6b757e7a8a1d6ebe3.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/c65e1cd3ff166c67adf7.json"
         }
       ]
     },
@@ -400,7 +400,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "state": "confirmed",
       "donor": null,
       "message": "",
-      "token": "0ff20c9b218cb7a19ee8",
+      "token": "e0099cc079adbf1c13c0",
       "client_reference": null,
       "created_at": "2012-05-23T16:41:06+02:00",
       "receiver_type": "FundraisingEvent",
@@ -413,7 +413,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/0ff20c9b218cb7a19ee8.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/e0099cc079adbf1c13c0.json"
         }
       ]
     },
@@ -422,7 +422,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "state": "confirmed",
       "donor": null,
       "message": "",
-      "token": "01d3c9bd4676830241c0",
+      "token": "cfa60978d12bb91589cf",
       "client_reference": null,
       "created_at": "2012-06-12T16:53:03+02:00",
       "receiver_type": "FundraisingEvent",
@@ -435,7 +435,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/01d3c9bd4676830241c0.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/cfa60978d12bb91589cf.json"
         }
       ]
     }

@@ -169,7 +169,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "KinderJugendliche",
       "slug": "KinderJugendliche",
-      "projects_count": 34,
+      "projects_count": 33,
       "links": [
         {
           "rel": "projects",

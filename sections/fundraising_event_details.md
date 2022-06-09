@@ -644,12 +644,37 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "closed_at": "2015-06-28T11:32:11+02:00",
   "activate_donations_at": null,
   "donations_count": 134,
-  "donor_count": 0,
+  "donor_count": 124,
   "donated_amount_in_cents": 858280,
   "requested_amount_in_cents": null,
   "forwarded_amount_in_cents": 858280,
   "progress_percentage": null,
-  "contact": null,
+  "contact": {
+    "id": 397832,
+    "name": "Giuliana 王 (display)",
+    "picture": {
+      "links": [
+        {
+          "rel": "fill_100x100",
+          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/397/832/fill_100x100_bp1584578641_JoJo.jpg"
+        },
+        {
+          "rel": "original",
+          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/397/832/crop_original_bp1584578641_JoJo.jpg"
+        }
+      ]
+    },
+    "links": [
+      {
+        "rel": "platform",
+        "href": "https://www.betterplace.org/de/users/397832"
+      },
+      {
+        "rel": "contact_data",
+        "href": "https://api.betterplace.org/de/api_v4/users/397832/contact_data.json"
+      }
+    ]
+  },
   "profile_picture": {
     "links": [
       {
@@ -714,7 +739,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     },
     {
       "rel": "new_message",
-      "href": "https://www.betterplace.org/de/messages/new"
+      "href": "https://www.betterplace.org/de/messages/new?recipient=397832"
     }
   ]
 }

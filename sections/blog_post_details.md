@@ -354,7 +354,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/de/projects/1114-skateistan/news/88972#ppp-sticky-anchor"
+      "href": "https://www.betterplace.org/de/projects/1114-unterstuetze-skateistan-sport-bildung-fuer-kinder/news/88972#ppp-sticky-anchor"
     },
     {
       "rel": "documentation",

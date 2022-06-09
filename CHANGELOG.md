@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to the betterplace.org API v4 will be documented in this file.
 
+## 2022-06-09
+
+### Removed
+- Volunteering endpoint
+- Clients Volunteering endpoint
+
 ## 2021-06-08
 
 ### Changed

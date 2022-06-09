@@ -39,7 +39,47 @@ User-id as an integer number.
 
 ## Response Attributes
 
-  <th colspan="4">No response example defined</th>
+
+### Root Attributes
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">first_name</th>
+      <td><code>string</code></td>
+      <td><code>Peter</code></td>
+<td>
+
+The first name of the user or donor.
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">last_name</th>
+      <td><code>string</code></td>
+      <td><code>Paul</code></td>
+<td>
+
+The last name of the user or donor.
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">email</th>
+      <td><code>string</code></td>
+      <td><code>peter.paul@betterplace.org</code></td>
+<td>
+
+The email address of the user or donor.
+
+</td>
+    </tr>
+  </table>
 </table>
 
 ## Response Links
@@ -55,6 +95,13 @@ User-id as an integer number.
 ## Response Example
 
 ```json
-null
+{
+  "first_name": "Taylan",
+  "last_name": "Oswald",
+  "email": "mjo@betterplace.org",
+  "links": [
+
+  ]
+}
 ```
 

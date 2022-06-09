@@ -154,13 +154,72 @@ The parent object of this picture.
 
 ```json
 {
-  "total_entries": 0,
+  "total_entries": 39,
   "offset": 3,
-  "total_pages": 0,
+  "total_pages": 13,
   "current_page": 2,
   "per_page": 3,
   "data": [
-
+    {
+      "id": 266141,
+      "created_at": "2021-11-24T11:38:14+01:00",
+      "updated_at": "2021-11-24T11:38:20+01:00",
+      "description": null,
+      "links": [
+        {
+          "rel": "image",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/image.png"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266141.json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+        }
+      ]
+    },
+    {
+      "id": 266140,
+      "created_at": "2021-11-24T11:38:13+01:00",
+      "updated_at": "2021-11-24T11:38:20+01:00",
+      "description": null,
+      "links": [
+        {
+          "rel": "image",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/image.png"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266140.json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+        }
+      ]
+    },
+    {
+      "id": 266139,
+      "created_at": "2021-11-24T11:38:13+01:00",
+      "updated_at": "2021-11-24T11:38:20+01:00",
+      "description": null,
+      "links": [
+        {
+          "rel": "image",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/image.png"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266139.json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+        }
+      ]
+    }
   ]
 }
 ```

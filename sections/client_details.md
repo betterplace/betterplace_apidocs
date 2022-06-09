@@ -57,19 +57,6 @@ Link to the <a href="projects_list.md">project list</a> of this client
     <tr>
 <th align="left">
 
-volunteering
-
-</th>
-<td>
-
-Link to the <a href="volunteering_list.md">volunteering list</a> of this client
-
-
-</td>
-    </tr>
-    <tr>
-<th align="left">
-
 client_donations
 
 </th>
@@ -157,10 +144,6 @@ Link to the <a href="fundraising_event_statistics_list.md">fundraising event sta
     {
       "rel": "projects",
       "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/projects.json"
-    },
-    {
-      "rel": "volunteering",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/volunteering.json"
     },
     {
       "rel": "client_donations",

@@ -359,12 +359,12 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "state": "confirmed",
   "donor": null,
   "message": "",
-  "token": "e09f09eb83180854ec5d",
+  "token": "1f47f78e98ed63d5d1fe",
   "client_reference": null,
   "created_at": "2010-10-28T14:44:49+02:00",
   "receiver_type": "Project",
   "receiver_id": 4807,
-  "receiver_title": "Skateistan",
+  "receiver_title": "Kleinbus für den Palais e.V. Trier",
   "links": [
     {
       "rel": "receiver",
@@ -372,7 +372,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/e09f09eb83180854ec5d.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/1f47f78e98ed63d5d1fe.json"
     }
   ]
 }

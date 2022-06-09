@@ -486,7 +486,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "updated_at": "2018-11-07T09:18:16+01:00",
       "latitude": 50.91569900512695,
       "longitude": 6.94116020202637,
-      "street": "Siemensstraße 164",
+      "street": "Stettiner Straße 82",
       "zip": "50969",
       "city": "Köln",
       "country": "Deutschland",
@@ -495,7 +495,32 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "name": "UNICEF",
       "description": "UNICEF, das Kinderhilfswerk der Vereinten Nationen, arbeitet weltweit mit Programmen in rund 150 Ländern. UNICEF hilft, dass das Recht jedes Kindes auf Überleben, Bildung und Schutz Wirklichkeit wird: mit konkreten Projekten, umfassenden Programmen und politischer Lobbyarbeit. UNICEF ist in jedem Land seit vielen Jahren vor Ort und hat ein dichtes Netzwerk lokaler Partner. So ist nachhaltige und effiziente Hilfe möglich. Mit dem jährlichen Geschäftsbericht informiert UNICEF ausführlich über Arbeitsweise, Strukturen und Kosten. Sie finden ihn unter www.unicef.de",
       "tax_deductible": true,
-      "contact": null,
+      "contact": {
+        "id": 20505,
+        "name": "Jana Schuhmacher (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/020/505/fill_100x100_bp1628225975_UNICEF_Logo.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/020/505/crop_original_bp1628225975_UNICEF_Logo.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/20505"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/20505/contact_data.json"
+          }
+        ]
+      },
       "picture": {
         "links": [
           {
@@ -538,10 +563,10 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     {
       "id": 125,
       "created_at": "2008-02-06T17:10:42+01:00",
-      "updated_at": "2022-01-15T08:36:07+01:00",
+      "updated_at": "2022-02-11T00:01:12+01:00",
       "latitude": 53.55759811401367,
       "longitude": 9.96815967559815,
-      "street": "Fliederweg 49",
+      "street": "Mühlgasse 175",
       "zip": "20357",
       "city": "Hamburg",
       "country": "Deutschland",
@@ -550,7 +575,32 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "name": "Viva con Agua de Sankt Pauli e.V.",
       "description": "Viva con Agua aktiviert und inspiriert - für eine Welt ohne Durst!<br><br>Viva con Agua ist ein internationales Netzwerk von Menschen und Organisationen, das sich für den sicheren Zugang zu sauberem Trinkwasser und sanitärer Grundversorgung einsetzt. <br>2006 wurde der gemeinnützige Verein Viva con Agua de Sankt Pauli ins Leben gerufen. <br>Inzwischen unterstützen die Vision „WASSER FÜR ALLE – ALLE FÜR WASSER“ mehr als 15.000 ehrenamtliche Supporter, die mit zahlreichen Aktionen und ebenso viel Spaß Spenden für WASH-Projekte weltweit sammeln – darunter viele Künstler und Musiker. <br>Gemeinsam seinen internationalen und lokalen Partnerorganisationen konnte die Bewegung so bereits über drei Millionen Menschen in WASH-Projekten (WAter, Sanitation, Hygiene) erreichen.<br><br>Neben dem Hamburger Verein zählen mittlerweile die Viva con Agua Stiftung und lokal aktive Organisationen in Uganda, Österreich, den Niederlanden, der Schweiz und neuerdings in Südafrika und Kalifornien zum international tätigen Netzwerk. Darüber hinaus unterstützen die ausgegründeten Social Business Unternehmen Viva con Agua Wasser GmbH, Viva con Agua ARTS gGmbH und Goldeimer gGmbH mit ihren Aktivitäten die Trinkwasser- und Sanitärprojekte von VcA.<br><br>WASSER FÜR ALLE - ALLE FÜR WASSER!",
       "tax_deductible": true,
-      "contact": null,
+      "contact": {
+        "id": 561728,
+        "name": "Lucas\tMason\tAlexander Köhler (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/561/728/fill_100x100_bp1587649479_VCA_Tropfen.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/561/728/crop_original_bp1587649479_VCA_Tropfen.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/561728"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/561728/contact_data.json"
+          }
+        ]
+      },
       "picture": {
         "links": [
           {

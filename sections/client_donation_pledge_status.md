@@ -226,7 +226,7 @@ Link to the related donation
   "links": [
     {
       "rel": "donation",
-      "href": "https://api.betterplace.org/de/api_v4/clients/natehelps/client_donations/d24e73f6703fd68fbd49.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/natehelps/client_donations/6f6fa9122f7d1628a139.json"
     }
   ]
 }

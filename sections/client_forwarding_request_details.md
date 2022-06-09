@@ -221,7 +221,7 @@ Link to the related donation
   "links": [
     {
       "rel": "donation",
-      "href": "https://api.betterplace.org/de/api_v4/clients/particulate-sww/client_donations/794e9b2815ac4c7dd913.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/particulate-sww/client_donations/b99fe8ce93dda908f81b.json"
     }
   ]
 }

@@ -713,13 +713,124 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 0,
+  "total_entries": 1,
   "offset": 0,
-  "total_pages": 0,
+  "total_pages": 1,
   "current_page": 1,
   "per_page": 3,
   "data": [
-
+    {
+      "id": 39294,
+      "created_at": "2021-09-26T23:25:57+02:00",
+      "updated_at": "2021-10-09T19:25:08+02:00",
+      "content_updated_at": "2021-10-09T19:25:08+02:00",
+      "title": "My birthday stream",
+      "description": "<div>Do we want to do something really good together? How about supporting together via this fundraiser \"Tree by tree for our climate - plant rainforest trees!\" from OroVerde - The Tropical Forest Foundation? I chose this organization because their work is very close to my heart. Both I and OroVerde - The Tropical Forest Foundation appreciate your support, because really every contribution helps!<br><br>Why do I use betterplace.org for this? Donating here is safe and uncomplicated and I can keep you informed about updates. Of course you will get a donation receipt for tax purposes at the beginning of next year.<br><br>\n</div>",
+      "tax_deductible": true,
+      "donations_prohibited": false,
+      "closed_at": null,
+      "activate_donations_at": null,
+      "donations_count": 0,
+      "donor_count": 0,
+      "donated_amount_in_cents": 0,
+      "requested_amount_in_cents": null,
+      "forwarded_amount_in_cents": 0,
+      "progress_percentage": null,
+      "contact": {
+        "id": 593528,
+        "name": "Elijah Lange (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/593/528/fill_100x100_bp1615732713_Stitch.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/593/528/crop_original_bp1615732713_Stitch.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/593528"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/593528/contact_data.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_birthday_default.png"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_birthday_default.png"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_birthday_default.png"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_birthday_default.png"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_birthday_default.png"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_birthday_default.png"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/39294.json"
+        },
+        {
+          "rel": "featured_projects",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/39294/featured_projects.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/39294/blog_posts.json"
+        },
+        {
+          "rel": "forwardings",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/39294/forwardings.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/39294-my-birthday-stream"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/39294/opinions.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/39294",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/39294"
+        },
+        {
+          "rel": "new_message",
+          "href": "https://www.betterplace.org/de/messages/new?recipient=593528"
+        }
+      ]
+    }
   ]
 }
 ```
