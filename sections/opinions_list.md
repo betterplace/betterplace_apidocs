@@ -185,6 +185,26 @@ It's false otherwise.
 </td>
     </tr>
     <tr>
+      <th align="left">company_donation</th>
+      <td><code>boolean</code></td>
+      <td><code>true</code></td>
+<td>
+
+Indicates if the sender of the donation was a company.
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">client_name</th>
+      <td><code>null &#124; string</code></td>
+      <td><code>true</code></td>
+<td>
+
+Name of the related client, if available.
+
+</td>
+    </tr>
+    <tr>
       <th align="left">score</th>
       <td><code>string</code></td>
       <td><code>positive</code></td>
@@ -207,6 +227,20 @@ DEPRECATED 2017-06-16 - Always returns "positive"
 
 Donor information, if available.
 
+
+</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="backed-by-fundraising-event-ref" href="#backed-by-fundrasing-event">
+            ↓backed_by_fundraising_event
+          </a>
+        </th>
+      <td><code>null &#124; object</code></td>
+      <td><code>-</code></td>
+<td>
+
+Donor information, if available.
 
 </td>
     </tr>
@@ -414,6 +448,56 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     </tr>
 </table>
 
+### <a id="backed-by-fundraising-event" href="#backed-by-fundraising-event-ref">↑Nested Attributes: backed_by_fundraising_event</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.id</th>
+      <td><code>number</code></td>
+      <td><code>1</code></td>
+<td>
+
+An integer number ≥ 1
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.url</th>
+      <td><code>string</code></td>
+      <td><code>"https://www.betterplace.org/de/fundraising-events/40566-nothilfe-fuer-die-ukraine"</code></td>
+  <td>
+
+    URL of the fundraising event
+
+  </td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.title</th>
+      <td><code>string</code></td>
+      <td><code>"Nothilfe für die Ukraine"</code></td>
+  <td>
+
+    Title of the fundraising event
+
+  </td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.donor_count</th>
+      <td><code>number</code></td>
+      <td><code>10</code></td>
+  <td>
+    Number of donors who donated to the fundraising event
+
+  </td>
+    </tr>
+</table>
+
 ## Response Example
 
 ```json
@@ -460,4 +544,3 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   ]
 }
 ```
-
