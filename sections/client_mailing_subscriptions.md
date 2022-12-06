@@ -63,7 +63,7 @@ The betterplace.org-internal client permalink.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>

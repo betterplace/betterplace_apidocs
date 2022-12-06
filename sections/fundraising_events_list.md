@@ -713,9 +713,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 1,
+  "total_entries": 5,
   "offset": 0,
-  "total_pages": 1,
+  "total_pages": 2,
   "current_page": 1,
   "per_page": 3,
   "data": [
@@ -828,6 +828,231 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         {
           "rel": "new_message",
           "href": "https://www.betterplace.org/de/messages/new?recipient=593528"
+        }
+      ]
+    },
+    {
+      "id": 40476,
+      "created_at": "2022-10-20T16:43:47+02:00",
+      "updated_at": "2022-10-20T17:21:21+02:00",
+      "content_updated_at": "2022-10-20T16:43:47+02:00",
+      "title": "FundraisingEventProject test",
+      "description": "<div>Wollen wir zusammen was richtig Gutes machen? Wie wäre es damit, gemeinsam über diese Spendenaktion „Deine Spende für den SHEROES Fund“ von Amadeu Antonio Stiftung zu unterstützen? Ich habe mir diese Organisation ausgesucht, da mir iadwawadwhre Arbeit sehr am Herzen liegt. Sowohl ich als auch Amadeu Antonio Stiftung freuen uns über deine Unterstützung, denn wirklich jeder Beitrag hilft!<br><br>\n</div><div>Warum ich dafür betterplace.org nutze? Das Spenden ist hier sicher und unkompliziert und ich kann euch über Updates auf dem Laufenden halten. Natürlich bekommt ihr Anfang nächsten Jahres auch eine Spendenbescheinigung für die Steuer.<br><br>\n</div>",
+      "tax_deductible": true,
+      "donations_prohibited": false,
+      "closed_at": null,
+      "activate_donations_at": null,
+      "donations_count": 0,
+      "donor_count": 0,
+      "donated_amount_in_cents": 0,
+      "requested_amount_in_cents": 50000,
+      "forwarded_amount_in_cents": 0,
+      "progress_percentage": null,
+      "contact": {
+        "id": 609657,
+        "name": "Manuel Hartwig (display)",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/609657"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/609657/contact_data.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_birthday_default.png"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_birthday_default.png"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_birthday_default.png"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_birthday_default.png"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_birthday_default.png"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_birthday_default.png"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/40476.json"
+        },
+        {
+          "rel": "featured_projects",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/40476/featured_projects.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/40476/blog_posts.json"
+        },
+        {
+          "rel": "forwardings",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/40476/forwardings.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/40476-fundraisingeventproject-test"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/40476/opinions.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/40476",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/40476"
+        },
+        {
+          "rel": "new_message",
+          "href": "https://www.betterplace.org/de/messages/new?recipient=609657"
+        }
+      ]
+    },
+    {
+      "id": 33831,
+      "created_at": "2019-12-12T11:20:45+01:00",
+      "updated_at": "2022-10-25T13:43:37+02:00",
+      "content_updated_at": "2019-12-12T12:38:12+01:00",
+      "title": "LPGjustJohnny - Spenden für die letzte Hilfe",
+      "description": "<div>Durch eigene Erfahrungen habe ich unglaublich Respekt vor Menschen die Hospizdienst, also das Begleiten eines Menschen auf seinem letzten Lebensabschnitt, leisten. Hierfür gibt es Deutschlandweit einige Einrichtungen, die genau auf so etwas spezialisiert sind.<br><br>Der Ansatz von \"Die Pusteblume\" geht aber darüber hinaus und möchte die Menschen in deren gewohnten Umfeld (also meist Zuhause) betreuen. Gerade durch privaten Erlebnisse dieses Jahr kann ich hier einen absoluten Mehrwert erkennen, da Menschen in ihren eigenen vier Wänden ein oftmals würdevolleres Leben und Ende finden können.<br><br>Ich bitte euch herzlichst für diese Idee zu spenden, mit Hilfe euer Spenden soll in erster Linie das Angebot an dich Menschen herangetragen werden -  <strong>die Gruppe der Hospizhelfer handelt hierbei ehrenamtlich!<br><br></strong><br>\n</div>",
+      "tax_deductible": true,
+      "donations_prohibited": true,
+      "closed_at": "2021-01-22T08:05:19+01:00",
+      "activate_donations_at": null,
+      "donations_count": 61,
+      "donor_count": 60,
+      "donated_amount_in_cents": 151850,
+      "requested_amount_in_cents": 150700,
+      "forwarded_amount_in_cents": 151850,
+      "progress_percentage": 100,
+      "contact": {
+        "id": 581863,
+        "name": "Jana Wulf (display)",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/581863"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/581863/contact_data.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/033/831/fill_960x500_bp1576146766_Spendenstream.png"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/033/831/fill_730x380_bp1576146766_Spendenstream.png"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/033/831/fill_618x322_bp1576146766_Spendenstream.png"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/033/831/fill_410x214_bp1576146766_Spendenstream.png"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/033/831/fill_270x141_bp1576146766_Spendenstream.png"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/033/831/crop_original_bp1576146766_Spendenstream.png"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/33831.json"
+        },
+        {
+          "rel": "featured_projects",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/33831/featured_projects.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/33831/blog_posts.json"
+        },
+        {
+          "rel": "forwardings",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/33831/forwardings.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/33831-lpgjustjohnny-spenden-fuer-die-letzte-hilfe"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/33831/opinions.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/33831",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/33831"
+        },
+        {
+          "rel": "new_message",
+          "href": "https://www.betterplace.org/de/messages/new?recipient=581863"
         }
       ]
     }

@@ -25,7 +25,7 @@ A list of forwarings from the fundraising event to its projects.
     <td>yes</td>
 <td>
 
-Fundraising Event id as an integer number ≥ 1.
+Fundraising Event id as an integer number.
 
 </td>
   </tr>

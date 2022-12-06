@@ -29,7 +29,7 @@ Results are contained in a *data* attribute.
     <td>no</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 This parameter is required in case you want to show project opinions.
 Also check the URL example in the introduction.
 
@@ -42,7 +42,7 @@ Also check the URL example in the introduction.
     <td>no</td>
 <td>
 
-Fundraising Event id as an integer number ≥ 1.
+Fundraising Event id as an integer number.
 This parameter is required in case you want to show fundraising event opinions.
 Also check the URL example in the introduction.
 
@@ -185,6 +185,17 @@ It's false otherwise.
 </td>
     </tr>
     <tr>
+      <th align="left">client_name</th>
+      <td><code>string</code></td>
+      <td><code>PAYBACK Spendenwelt</code></td>
+<td>
+
+Name of the related client, if available.
+
+
+</td>
+    </tr>
+    <tr>
       <th align="left">score</th>
       <td><code>string</code></td>
       <td><code>positive</code></td>
@@ -211,6 +222,21 @@ Donor information, if available.
 </td>
     </tr>
     <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="backed_by_fundraising_event-ref" href="#backed_by_fundraising_event">
+            ↓backed_by_fundraising_event
+          </a>
+        </th>
+      <td><code>object</code></td>
+      <td><code>TODO</code></td>
+<td>
+
+Information about the fundraising event through which the donation came in, if available.
+
+
+</td>
+    </tr>
+    <tr>
       <th align="left">message</th>
       <td><code>null &#124; string</code></td>
       <td><code>"This is a great project. In spring 2007 I travelled around the area together with my children and …"</code></td>
@@ -218,8 +244,7 @@ Donor information, if available.
 
 An optional message by users.
 
-The body may contain html with any of the following HTML tags:
-```b, br, em, i, li, ol, p, strong, ul```.
+The body is plain text potentially containing line-breaks.
 
 
 </td>
@@ -302,6 +327,71 @@ User profile picture or a fallback image
 <td>
 
 Specifies whether a fallback image is given or not
+
+</td>
+    </tr>
+  </table>
+
+### <a id="backed_by_fundraising_event" href="#backed_by_fundraising_event-ref">↑Nested Attributes: backed_by_fundraising_event</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.id</th>
+      <td><code>number</code></td>
+      <td><code>1</code></td>
+<td>
+
+An integer number ≥ 1
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.url</th>
+      <td><code>string</code></td>
+      <td><code>Lorem ipsum</code></td>
+<td>
+
+URL of the fundraising event
+
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.title</th>
+      <td><code>string</code></td>
+      <td><code>Lorem ipsum</code></td>
+<td>
+
+Title of the fundraising event
+
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.donor_count</th>
+      <td><code>number</code></td>
+      <td><code>100</code></td>
+<td>
+
+Number of donors who donated to the fundraising event
+
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.sponsoring_name</th>
+      <td><code>string</code></td>
+      <td><code>Company XY</code></td>
+<td>
+
+Company name if it is a sponsored fundraising event
+
 
 </td>
     </tr>
@@ -409,6 +499,18 @@ author.picture.original
 <td>
 
 Maximum sized image. This is the original image with default-cropping or user-cropping applied.
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+backed_by_fundraising_event.sponsoring_logo
+
+</th>
+<td>
+
+Sponsoring Logo
 
 </td>
     </tr>

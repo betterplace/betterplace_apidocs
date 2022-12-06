@@ -106,8 +106,7 @@ Donor information, if available.
 
 An optional message by users.
 
-The body may contain html with any of the following HTML tags:
-```b, br, em, i, li, ol, p, strong, ul```.
+The body is plain text potentially containing line-breaks.
 
 
 </td>
@@ -155,8 +154,7 @@ DateTime (ISO8601 with Timezone)
 <td>
 
 Client donations may go to a <code>Project</code>,
-a Project's <code>Element</code>, a <code>FundraisingEvent</code>,
-a <code>Pool</code>.
+a <code>FundraisingEvent</code>, a <code>Pool</code>.
 
 
 </td>
@@ -355,24 +353,24 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "amount_in_cents": 1000,
+  "amount_in_cents": 200,
   "state": "confirmed",
   "donor": null,
-  "message": "",
-  "token": "1f47f78e98ed63d5d1fe",
+  "message": "Gemeinsam für Kinder!",
+  "token": "c65e1cd3ff166c67adf7",
   "client_reference": null,
-  "created_at": "2010-10-28T14:44:49+02:00",
-  "receiver_type": "Project",
-  "receiver_id": 4807,
-  "receiver_title": "Kleinbus für den Palais e.V. Trier",
+  "created_at": "2011-12-13T13:48:15+01:00",
+  "receiver_type": "FundraisingEvent",
+  "receiver_id": 8821,
+  "receiver_title": "Stark fürs Leben - für die Zukunft unserer Kinder",
   "links": [
     {
       "rel": "receiver",
-      "href": "https://api.betterplace.org/de/api_v4/projects/4807.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/8821.json"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/1f47f78e98ed63d5d1fe.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/c65e1cd3ff166c67adf7.json"
     }
   ]
 }

@@ -43,7 +43,7 @@ projects, the API will return a `404` HTTP code.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>
@@ -127,6 +127,54 @@ Link to the original image as uploaded by the user
     <tr>
 <th align="left">
 
+limit_620x323
+
+</th>
+<td>
+
+Link to a small version (max 620x323 px) of the image
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+limit_620x323_2x
+
+</th>
+<td>
+
+Link to a small version (max 620x323 px) of the image @2x
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+limit_450x235
+
+</th>
+<td>
+
+Link to a small version (max 450x235 px) of the image
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+limit_450x235_2x
+
+</th>
+<td>
+
+Link to a small version (max 450x235 px) of the image @2x
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
 self
 
 </th>
@@ -171,6 +219,22 @@ The parent object of this picture.
           "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/image.png"
         },
         {
+          "rel": "limit_620x323",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_620x323_image.png"
+        },
+        {
+          "rel": "limit_620x323_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_620x323_2x_image.png"
+        },
+        {
+          "rel": "limit_450x235",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_450x235_image.png"
+        },
+        {
+          "rel": "limit_450x235_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_450x235_2x_image.png"
+        },
+        {
           "rel": "self",
           "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266141.json"
         },
@@ -191,6 +255,22 @@ The parent object of this picture.
           "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/image.png"
         },
         {
+          "rel": "limit_620x323",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_620x323_image.png"
+        },
+        {
+          "rel": "limit_620x323_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_620x323_2x_image.png"
+        },
+        {
+          "rel": "limit_450x235",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_450x235_image.png"
+        },
+        {
+          "rel": "limit_450x235_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_450x235_2x_image.png"
+        },
+        {
           "rel": "self",
           "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266140.json"
         },
@@ -209,6 +289,22 @@ The parent object of this picture.
         {
           "rel": "image",
           "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/image.png"
+        },
+        {
+          "rel": "limit_620x323",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_620x323_image.png"
+        },
+        {
+          "rel": "limit_620x323_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_620x323_2x_image.png"
+        },
+        {
+          "rel": "limit_450x235",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_450x235_image.png"
+        },
+        {
+          "rel": "limit_450x235_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_450x235_2x_image.png"
         },
         {
           "rel": "self",

@@ -30,7 +30,7 @@ to make sure you only request data that is associated with one of your projects.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>

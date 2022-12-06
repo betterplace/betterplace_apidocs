@@ -29,7 +29,7 @@ to make sure you only request data that is associated with one of your projects.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>
@@ -39,7 +39,7 @@ Project id as an integer number ≥ 14.
     <td>yes</td>
 <td>
 
-Need-id as an integer number ≥ 29.
+Need-id as an integer number.
 
 </td>
   </tr>
@@ -235,13 +235,13 @@ Link to the regular donation form.
 {
   "id": 357682,
   "created_at": "2021-11-23T13:43:53+01:00",
-  "updated_at": "2022-05-06T15:15:05+02:00",
+  "updated_at": "2022-08-30T08:42:43+02:00",
   "title": "Skateistan: A New Chapter",
   "description": "Unser Ziel: im Laufe des nächsten Jahres auf 20 Standorte zu expandieren und jede Woche 4 500 Schüler zu erreichen. Helft uns, das nächste Kapitel der Geschichte von Skateistan zu schreiben!",
   "completed": false,
-  "progress_percentage": 21.99,
-  "donated_amount_in_cents": 109935,
-  "open_amount_in_cents": 390065,
+  "progress_percentage": 22.03,
+  "donated_amount_in_cents": 110135,
+  "open_amount_in_cents": 389865,
   "requested_amount_in_cents": 500000,
   "links": [
     {

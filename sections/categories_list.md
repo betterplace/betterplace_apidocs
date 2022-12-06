@@ -24,7 +24,7 @@ Results are contained in a *data* attribute.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>

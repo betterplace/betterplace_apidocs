@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to the betterplace.org API v4 will be documented in this file.
 
+## 2022-10-24
+
+- Deprecate `comments_count` on [project details](sections/project_details.md). (The comments feature had already been removed in 2021.)
+
 ## 2022-06-09
 
 ### Removed

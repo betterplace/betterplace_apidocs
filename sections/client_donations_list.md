@@ -118,8 +118,7 @@ Donor information, if available.
 
 An optional message by users.
 
-The body may contain html with any of the following HTML tags:
-```b, br, em, i, li, ol, p, strong, ul```.
+The body is plain text potentially containing line-breaks.
 
 
 </td>
@@ -167,8 +166,7 @@ DateTime (ISO8601 with Timezone)
 <td>
 
 Client donations may go to a <code>Project</code>,
-a Project's <code>Element</code>, a <code>FundraisingEvent</code>,
-a <code>Pool</code>.
+a <code>FundraisingEvent</code>, a <code>Pool</code>.
 
 
 </td>

@@ -23,7 +23,7 @@ A list of betterplace.org matching funds.
     <td>no</td>
 <td>
 
-Optional project id as an integer number ≥ 14.
+Optional project id as an integer number.
 Allows to filter the list of matching funds.
 This way one can show a list of matching funds where
 the given project is part of the matching fund projects list.

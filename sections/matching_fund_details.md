@@ -24,7 +24,7 @@ The details and list view show the same data.
     <td>yes</td>
 <td>
 
-matching-fund-id as an integer number ≥ 9.
+matching-fund-id as an integer number.
 
 </td>
   </tr>
