@@ -2,7 +2,7 @@
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/pictures.json
+GET https://api.betterplace.org/de/api_v4/projects/3/pictures.json
 ```
 
 A list of pictures of a betterplace.org project (donate money).
@@ -39,7 +39,7 @@ projects, the API will return a `404` HTTP code.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>3</code></td>
     <td>yes</td>
 <td>
 
@@ -202,117 +202,45 @@ The parent object of this picture.
 
 ```json
 {
-  "total_entries": 39,
-  "offset": 3,
-  "total_pages": 13,
-  "current_page": 2,
+  "current_page": 1,
+  "offset": 0,
   "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "id": 266141,
-      "created_at": "2021-11-24T11:38:14+01:00",
-      "updated_at": "2021-11-24T11:38:20+01:00",
+      "id": 1,
+      "created_at": "2023-07-24T14:20:33+02:00",
+      "updated_at": "2023-07-24T14:20:33+02:00",
       "description": null,
       "links": [
         {
           "rel": "image",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/image.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/image.jpg"
         },
         {
           "rel": "limit_620x323",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_620x323_image.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_620x323_image.jpg"
         },
         {
           "rel": "limit_620x323_2x",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_620x323_2x_image.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_620x323_2x_image.jpg"
         },
         {
           "rel": "limit_450x235",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_450x235_image.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_450x235_image.jpg"
         },
         {
           "rel": "limit_450x235_2x",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266141/limit_450x235_2x_image.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_450x235_2x_image.jpg"
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266141.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/3/pictures/1.json"
         },
         {
           "rel": "parent",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
-        }
-      ]
-    },
-    {
-      "id": 266140,
-      "created_at": "2021-11-24T11:38:13+01:00",
-      "updated_at": "2021-11-24T11:38:20+01:00",
-      "description": null,
-      "links": [
-        {
-          "rel": "image",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/image.png"
-        },
-        {
-          "rel": "limit_620x323",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_620x323_image.png"
-        },
-        {
-          "rel": "limit_620x323_2x",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_620x323_2x_image.png"
-        },
-        {
-          "rel": "limit_450x235",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_450x235_image.png"
-        },
-        {
-          "rel": "limit_450x235_2x",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266140/limit_450x235_2x_image.png"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266140.json"
-        },
-        {
-          "rel": "parent",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
-        }
-      ]
-    },
-    {
-      "id": 266139,
-      "created_at": "2021-11-24T11:38:13+01:00",
-      "updated_at": "2021-11-24T11:38:20+01:00",
-      "description": null,
-      "links": [
-        {
-          "rel": "image",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/image.png"
-        },
-        {
-          "rel": "limit_620x323",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_620x323_image.png"
-        },
-        {
-          "rel": "limit_620x323_2x",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_620x323_2x_image.png"
-        },
-        {
-          "rel": "limit_450x235",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_450x235_image.png"
-        },
-        {
-          "rel": "limit_450x235_2x",
-          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266139/limit_450x235_2x_image.png"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266139.json"
-        },
-        {
-          "rel": "parent",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/3.json"
         }
       ]
     }

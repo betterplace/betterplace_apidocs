@@ -19,7 +19,7 @@ A list of betterplace.org matching funds.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>28013</code></td>
+    <td><code>1</code></td>
     <td>no</td>
 <td>
 
@@ -257,71 +257,38 @@ Link to this resource in the documentation
 
 ```json
 {
-  "total_entries": 9,
-  "offset": 0,
-  "total_pages": 5,
   "current_page": 1,
+  "offset": 0,
   "per_page": 2,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "id": 11,
-      "created_at": "2015-10-29T17:06:32+01:00",
-      "updated_at": "2016-10-27T16:34:28+02:00",
-      "activated_at": "2015-10-31T08:33:12+01:00",
-      "title": "Fressnapf verdoppelt deine Spende",
-      "description": "",
-      "company_name": "Fressnapf",
-      "client_id": "fressnapf",
-      "provided_amount_in_cents": 1000000,
-      "donated_amount_in_cents": 1000000,
-      "state": "closed",
-      "logo_url": "https://www.betterplace.dev/uploads/matching_fund/logo/000/000/011/bp1477578868_Logo_Fressnapf.png",
-      "maximum_matching_amount_in_cents": 10000,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/matching_funds/11.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/matching-funds/11-fressnapf"
-        },
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/matching_funds/11/projects.json"
-        },
-        {
-          "rel": "documentation",
-          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/matching_fund_details.md"
-        }
-      ]
-    },
-    {
-      "id": 34,
-      "created_at": "2016-04-13T15:57:01+02:00",
-      "updated_at": "2016-11-29T14:54:07+01:00",
-      "activated_at": "2016-07-07T09:59:35+02:00",
-      "title": "2016-07-07 Gut für Köln und Bonn",
-      "description": "Die Sparkasse KölnBonn verdoppelt Deine Spende auf gut-fuer-koeln-und-bonn.de!",
-      "company_name": "Die Sparkasse KölnBonn",
-      "client_id": "sk-koelnbonn",
-      "provided_amount_in_cents": 997500,
-      "donated_amount_in_cents": 997500,
+      "id": 1,
+      "created_at": "2023-07-24T14:20:40+02:00",
+      "updated_at": "2023-07-24T14:20:40+02:00",
+      "activated_at": "2023-07-24T14:20:40+02:00",
+      "title": "Matching Fund 1",
+      "description": "rollin rollin rollin..",
+      "company_name": "Company Name",
+      "client_id": null,
+      "provided_amount_in_cents": 0,
+      "donated_amount_in_cents": 0,
       "state": "closed",
       "logo_url": null,
       "maximum_matching_amount_in_cents": 10000,
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/matching_funds/34.json"
+          "href": "https://api.betterplace.org/de/api_v4/matching_funds/1.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/matching-funds/34-die-sparkasse-koelnbonn"
+          "href": "https://www.betterplace.org/de/matching-funds/1-company-name"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/matching_funds/34/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/matching_funds/1/projects.json"
         },
         {
           "rel": "documentation",

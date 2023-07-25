@@ -2,7 +2,7 @@
 # Project Need Details ⇄ [List](needs_list.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/needs/59220.json
+GET https://api.betterplace.org/de/api_v4/projects/1/needs/1.json
 ```
 
 The details of a betterplace.org project need (donate money).
@@ -25,7 +25,7 @@ to make sure you only request data that is associated with one of your projects.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -35,7 +35,7 @@ Project id as an integer number.
   </tr>
   <tr>
     <th align="left">id</th>
-    <td><code>59220</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -233,33 +233,33 @@ Link to the regular donation form.
 
 ```json
 {
-  "id": 357682,
-  "created_at": "2021-11-23T13:43:53+01:00",
-  "updated_at": "2022-08-30T08:42:43+02:00",
-  "title": "Skateistan: A New Chapter",
-  "description": "Unser Ziel: im Laufe des nächsten Jahres auf 20 Standorte zu expandieren und jede Woche 4 500 Schüler zu erreichen. Helft uns, das nächste Kapitel der Geschichte von Skateistan zu schreiben!",
+  "id": 1,
+  "created_at": "2023-07-24T14:20:28+02:00",
+  "updated_at": "2023-07-24T14:20:28+02:00",
+  "title": "Money for tools",
+  "description": "tools to build some awesome houses",
   "completed": false,
-  "progress_percentage": 22.03,
-  "donated_amount_in_cents": 110135,
-  "open_amount_in_cents": 389865,
-  "requested_amount_in_cents": 500000,
+  "progress_percentage": 0.0,
+  "donated_amount_in_cents": 0,
+  "open_amount_in_cents": 800100,
+  "requested_amount_in_cents": 800100,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/357682.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1/needs/1.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1114?need_id=357682",
+      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1?need_id=1",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/de/donate/platform/projects/1114?need_id=357682"
+      "href": "https://www.betterplace.org/de/donate/platform/projects/1?need_id=1"
     }
   ]
 }

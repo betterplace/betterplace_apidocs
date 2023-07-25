@@ -2,7 +2,7 @@
 # Client Donation Details ⇄ [List](client_donations_list.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/d0d35e347873169aec71.json
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations/d0d35e347873169aec71.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -22,7 +22,7 @@ The details and list view show the same data.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -353,24 +353,24 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "amount_in_cents": 200,
+  "amount_in_cents": 50000,
   "state": "confirmed",
   "donor": null,
-  "message": "Gemeinsam für Kinder!",
-  "token": "c65e1cd3ff166c67adf7",
+  "message": null,
+  "token": "3vxGYVhi1TCBZ12vncfkefPd",
   "client_reference": null,
-  "created_at": "2011-12-13T13:48:15+01:00",
-  "receiver_type": "FundraisingEvent",
-  "receiver_id": 8821,
-  "receiver_title": "Stark fürs Leben - für die Zukunft unserer Kinder",
+  "created_at": "2023-07-24T14:20:39+02:00",
+  "receiver_type": "Project",
+  "receiver_id": 1,
+  "receiver_title": "my little project",
   "links": [
     {
       "rel": "receiver",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/8821.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/c65e1cd3ff166c67adf7.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations/3vxGYVhi1TCBZ12vncfkefPd.json"
     }
   ]
 }

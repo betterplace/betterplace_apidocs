@@ -2,7 +2,7 @@
 # Creating a Client Forwarding Request ⇄ [Status](client_forwarding_request_details.md)
 
 ```Cirru
-POST https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/1114/forwarding_requests.json
+POST https://api.betterplace.org/de/api_v4/clients/ww-testclient/projects/1/forwarding_requests.json
 ```
 
 Transfer money from a client donation pool to a Project.
@@ -92,7 +92,7 @@ provided by betterplace.org).
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -102,7 +102,7 @@ The betterplace.org-internal client permalink.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -271,7 +271,7 @@ information about it can be gathered.
   "links": [
     {
       "rel": "location",
-      "href": "https://api.betterplace.dev/de/api_v4/clients/some_client/forwarding_requests/1337"
+      "href": "https://api.betterplace.org/de/api_v4/clients/some_client/forwarding_requests/1337"
     }
   ]
 }

@@ -2,7 +2,7 @@
 # Client Mailing Subscriptions
 
 ```Cirru
-POST https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/4425/mailing_subscriptions.json
+POST https://api.betterplace.org/de/api_v4/clients/ww-testclient/projects/1/mailing_subscriptions.json
 ```
 
 Create or update a mailing subscriptions for a project.
@@ -49,7 +49,7 @@ target with the subscription lang. To target a lang see
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -59,7 +59,7 @@ The betterplace.org-internal client permalink.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>4425</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 

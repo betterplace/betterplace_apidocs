@@ -2,7 +2,7 @@
 # Fundraising Event Details ⇄ [List](fundraising_events_list.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events/19267.json
+GET https://api.betterplace.org/de/api_v4/fundraising_events/1.json
 ```
 
 The details of a betterplace.org fundraising events (donate money).
@@ -22,7 +22,7 @@ Use this resource as follows: `/clients/PERMALINK/fundraising-events/ID.json`
   </tr>
   <tr>
     <th align="left">id</th>
-    <td><code>19267</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -258,6 +258,16 @@ The public face of the fundraising event / fundraising event manager
 <td>
 
 TODO
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">around_distance</th>
+      <td><code>number</code></td>
+      <td><code>666.23</code></td>
+<td>
+
+Distance to around location in meters
 
 </td>
     </tr>
@@ -633,45 +643,46 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "id": 19267,
-  "created_at": "2014-09-23T21:17:06+02:00",
-  "updated_at": "2019-05-29T00:45:18+02:00",
-  "content_updated_at": "2015-06-28T11:32:11+02:00",
-  "title": "Gemeinsam gegen Ebola: Deine Spende für Westafrika",
-  "description": "Das Ebola-Virus ist für uns* in Westafrika allgegenwärtig: Schüttelt man zur Begrüßung noch die Hand, obwohl die Regierungen davon abraten? Tritt man die Dienstreise in das vom Virus betroffene Nigeria an? Droht die Quarantäne, wenn man bei der Ausreise aus der Region unter Erkältung und Fieber leidet? <br><br>Für die Menschen in Sierra Leone, Liberia und Guinea sind das Luxusprobleme. Dort ist ein normaler Alltag nicht mehr möglich. Im Familienkreis oder der Nachbarschaft gibt es möglicherweise Tote zu beklagen. Der Zugang zu Gesundheitsdienstleistungen ist, auch für andere häufig auftretende Krankheiten wie Malaria, erschwert und kann teilweise nicht mehr gewährleistet werden. <br><br>Viele Ärzte und Krankenschwestern sind selbst gestorben oder haben Angst, sich selbst anzustecken, da es an grundsätzlichen Dingen wie Schutzkleidung und Arzneimitteln fehlt. Unsere Spenden unterstützen Action Medeor beider Ausrüstung zweier neu aufgebauter Isolierstationen in Monrovia, Liberia.<br><br>Die internationale Gemeinschaft reagiert nur sehr langsam – obwohl das Virus bereits seit Anfang des Jahres mehr als 2500 Menschen den Tod gekostet hat. Die langfristigen Folgen für die Volkswirtschaften, die Gesundheitssysteme und das Zusammenleben der Menschen in der Region sind verheerend. <br><br>Wir müssen jetzt handeln, um den Menschen vor Ort und ihren Helfern die notwendigen Materialien zukommen zu lassen. Wir denken dabei auch an unsere Freunde hier in der Region, die wir auf Dienstreisen kennen gelernt haben oder die als Ärzte in Alarmbereitschaft versetzt wurden. Helft uns dabei, den Menschen in ihrer Notlage zu helfen: Teilt diesen Link mit anderen und spendet, auch kleine Beiträge sind willkommen! <br><br>* Jonas lebt seit mehr als zwei Jahren im Senegal, Johanna war für knapp zwei Monate im benachbarten Gambia. Wir beide haben in den letzten Wochen die Nachrichtenlage verfolgt und mit den Menschen vor Ort über die Unsicherheit gesprochen. <br><br>Bild: Jonas Wipfler, Liberia, 2013",
+  "id": 1,
+  "created_at": "2023-07-24T14:20:35+02:00",
+  "updated_at": "2023-07-24T14:20:35+02:00",
+  "content_updated_at": "2023-07-24T14:20:35+02:00",
+  "title": "My Berlin Marathon",
+  "description": null,
   "tax_deductible": true,
-  "donations_prohibited": true,
-  "closed_at": "2015-06-28T11:32:11+02:00",
+  "donations_prohibited": false,
+  "closed_at": null,
   "activate_donations_at": null,
-  "donations_count": 134,
-  "donor_count": 124,
-  "donated_amount_in_cents": 858280,
+  "donations_count": 1,
+  "donor_count": 0,
+  "donated_amount_in_cents": 50000,
   "requested_amount_in_cents": null,
-  "forwarded_amount_in_cents": 858280,
+  "forwarded_amount_in_cents": 25000,
   "progress_percentage": null,
   "contact": {
-    "id": 397832,
-    "name": "Giuliana 王 (display)",
+    "id": 3,
+    "name": "u. X",
     "picture": {
+      "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/397/832/fill_100x100_bp1584578641_JoJo.jpg"
+          "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
         },
         {
           "rel": "original",
-          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/397/832/crop_original_bp1584578641_JoJo.jpg"
+          "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/de/users/397832"
+        "href": "https://www.betterplace.org/de/users/3"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/de/api_v4/users/397832/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/3/contact_data.json"
       }
     ]
   },
@@ -679,67 +690,67 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "fill_960x500",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/019/267/fill_960x500_Liberia_1.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_960x500_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
       },
       {
         "rel": "fill_730x380",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/019/267/fill_730x380_Liberia_1.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_730x380_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
       },
       {
         "rel": "fill_618x322",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/019/267/fill_618x322_Liberia_1.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_618x322_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
       },
       {
         "rel": "fill_410x214",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/019/267/fill_410x214_Liberia_1.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_410x214_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/019/267/fill_270x141_Liberia_1.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_270x141_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
       },
       {
         "rel": "original",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/019/267/crop_original_Liberia_1.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/crop_original_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/19267.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1.json"
     },
     {
       "rel": "featured_projects",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/19267/featured_projects.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/featured_projects.json"
     },
     {
       "rel": "blog_posts",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/19267/blog_posts.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/blog_posts.json"
     },
     {
       "rel": "forwardings",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/19267/forwardings.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/forwardings.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/de/fundraising-events/19267-gemeinsam-gegen-ebola-deine-spende-fuer-westafrika"
+      "href": "https://www.betterplace.org/de/fundraising-events/1-my-berlin-marathon"
     },
     {
       "rel": "opinions",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/19267/opinions.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/opinions.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/19267",
+      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/1",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/19267"
+      "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/1"
     },
     {
       "rel": "new_message",
-      "href": "https://www.betterplace.org/de/messages/new?recipient=397832"
+      "href": "https://www.betterplace.org/de/messages/new?recipient=3"
     }
   ]
 }

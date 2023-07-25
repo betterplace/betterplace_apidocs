@@ -2,7 +2,7 @@
 # Searching entities to donate to
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&facets=state%3Aactivated&q=Katze
+GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&facets=state%3Aactivated&q=Berlin
 ```
 
 TODO
@@ -19,7 +19,7 @@ TODO
   </tr>
   <tr>
     <th align="left">q</th>
-    <td><code>Katze</code></td>
+    <td><code>Berlin</code></td>
     <td>no</td>
 <td>
 
@@ -56,7 +56,7 @@ only shows active projects and fundraising events that can receive donations.
 <em>Supported filters are:</em>
 <ul>
 <li><code>state:activated</code> –For active projects and fundraising events
-<li><code>min_activity_threshold_reached:true/false</code> Project has received some attenton and donations
+<li><code>min_activity_threshold_reached:true/false</code> Project has received some attention and donations
 <li><code>hidden_from_platform:true/false</code> – Incomplete or blocked projects
 </ul>
 It is possible to set multiple facet filters.
@@ -652,237 +652,23 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 113,
-  "offset": 0,
-  "total_pages": 38,
   "current_page": 1,
+  "offset": 0,
   "per_page": 3,
+  "total_entries": 2,
+  "total_pages": 1,
   "data": [
     {
-      "id": 11289,
-      "created_at": "2012-10-30T21:20:22+01:00",
-      "updated_at": "2022-08-30T08:42:51+02:00",
-      "latitude": 52.3333333,
-      "longitude": 12.35,
-      "title": "Ein Monat Futter und Medikamente",
+      "id": 1,
+      "created_at": "2023-07-24T14:20:20+02:00",
+      "updated_at": "2023-07-24T14:20:40+02:00",
+      "latitude": 52.49000000000001,
+      "longitude": 13.45,
+      "title": "my little project",
       "type": "Project",
       "contact": {
-        "id": 283731,
-        "name": "Raul Thomas (display)",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/283/731/fill_100x100_bp1584574960_2.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/283/731/crop_original_bp1584574960_2.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/283731"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/283731/contact_data.json"
-          }
-        ]
-      },
-      "progress_percentage": 96,
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_960x500_bp1584534965_original_IMG_1129.JPG"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_730x380_bp1584534965_original_IMG_1129.JPG"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_618x322_bp1584534965_original_IMG_1129.JPG"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_410x214_bp1584534965_original_IMG_1129.JPG"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_270x141_bp1584534965_original_IMG_1129.JPG"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/crop_original_bp1584534965_original_IMG_1129.JPG"
-          }
-        ]
-      },
-      "donated_amount_in_cents": 9156038,
-      "country": "Deutschland",
-      "city": "Rosenau",
-      "carrier": {
-        "id": 12201,
-        "name": "Ein Zuhause für Tiere e. V.",
-        "city": "Rosenau",
-        "country": "Deutschland",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/012/201/fill_100x100_bp1566565660_D074F98E-97B2-4F4A-A37D-DBBA8CCCF2A7.jpeg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/012/201/crop_original_bp1566565660_D074F98E-97B2-4F4A-A37D-DBBA8CCCF2A7.jpeg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/de/api_v4/organisations/12201.json"
-          }
-        ]
-      },
-      "donations_count": 4242,
-      "open_amount_in_cents": 359762,
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/11289-ein-monat-futter-und-medikamente"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/11289.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/de/api_v4/projects/11289/pictures.json"
-        }
-      ]
-    },
-    {
-      "id": 8081,
-      "created_at": "2011-11-04T12:03:13+01:00",
-      "updated_at": "2022-02-12T20:00:50+01:00",
-      "latitude": 53.75017166137695,
-      "longitude": 91.40022277832031,
-      "title": "Das letzte siebte Leben - Hilfe für Svetlana",
-      "type": "Project",
-      "contact": {
-        "id": 128714,
-        "name": "Paul Şahin (display)",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/128/714/fill_100x100_bp1584571895_original_ich_f_r_Projekt2.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/128/714/crop_original_bp1584571895_original_ich_f_r_Projekt2.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/128714"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/128714/contact_data.json"
-          }
-        ]
-      },
-      "progress_percentage": 97,
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_960x500_bp1584532915_original_IMG_1031.jpg"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_730x380_bp1584532915_original_IMG_1031.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_618x322_bp1584532915_original_IMG_1031.jpg"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_410x214_bp1584532915_original_IMG_1031.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_270x141_bp1584532915_original_IMG_1031.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/crop_original_bp1584532915_original_IMG_1031.jpg"
-          }
-        ]
-      },
-      "donated_amount_in_cents": 17398752,
-      "country": "Russland",
-      "city": "Abakan",
-      "carrier": {
-        "id": 4735,
-        "name": "Tierhilfe - Bluemoon &amp; Pfötchenfreunde e.V.",
-        "city": "Ainring",
-        "country": "Deutschland",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/735/fill_100x100_original_neues_Logo.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/735/crop_original_original_neues_Logo.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/de/api_v4/organisations/4735.json"
-          }
-        ]
-      },
-      "donations_count": 6900,
-      "open_amount_in_cents": 441648,
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/8081-das-letzte-siebte-leben-hilfe-fuer-svetlana"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/8081.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/de/api_v4/projects/8081/pictures.json"
-        }
-      ]
-    },
-    {
-      "id": 46850,
-      "created_at": "2016-07-23T16:17:23+02:00",
-      "updated_at": "2022-02-12T20:21:39+01:00",
-      "latitude": 52.1022162,
-      "longitude": 10.65928710000003,
-      "title": "Bitte unterstützt die Tiere unseres Gnadenhofes",
-      "type": "Project",
-      "contact": {
-        "id": 563094,
-        "name": "Pia ?‍?‍?Familie Emoji (display)",
+        "id": 1,
+        "name": "u. X",
         "picture": {
           "fallback": true,
           "links": [
@@ -899,84 +685,164 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/563094"
+            "href": "https://www.betterplace.org/de/users/1"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/563094/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/1/contact_data.json"
           }
         ]
       },
-      "progress_percentage": 96,
+      "progress_percentage": 0,
       "profile_picture": {
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/046/850/fill_960x500_bp1584550813_1469285286_20160609_163647.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_960x500_707219c3-2de7-41e4-9f65-1d4427faa8c6.jpg"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/046/850/fill_730x380_bp1584550813_1469285286_20160609_163647.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_730x380_707219c3-2de7-41e4-9f65-1d4427faa8c6.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/046/850/fill_618x322_bp1584550813_1469285286_20160609_163647.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_618x322_707219c3-2de7-41e4-9f65-1d4427faa8c6.jpg"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/046/850/fill_410x214_bp1584550813_1469285286_20160609_163647.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_410x214_707219c3-2de7-41e4-9f65-1d4427faa8c6.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/046/850/fill_270x141_bp1584550813_1469285286_20160609_163647.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_270x141_707219c3-2de7-41e4-9f65-1d4427faa8c6.jpg"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/046/850/crop_original_bp1584550813_1469285286_20160609_163647.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/crop_original_707219c3-2de7-41e4-9f65-1d4427faa8c6.jpg"
           }
         ]
       },
-      "donated_amount_in_cents": 6182361,
+      "donated_amount_in_cents": 125000,
       "country": "Deutschland",
-      "city": "Klein Biewende",
+      "city": "Berlin",
       "carrier": {
-        "id": 29041,
-        "name": "Verein für misshandelte Tiere - Gnadenhof -",
-        "city": "Klein Biewende",
+        "id": 1,
+        "name": "Organisation #1",
+        "city": "Berlin",
         "country": "Deutschland",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/029/041/fill_100x100_bp1548456324_30167640_1733741506714208_5700900558925134143_o.jpg"
+              "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.jpg"
             },
             {
               "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/029/041/crop_original_bp1548456324_30167640_1733741506714208_5700900558925134143_o.jpg"
+              "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/crop_original_default.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/de/api_v4/organisations/29041.json"
+            "href": "https://api.betterplace.org/de/api_v4/organisations/1.json"
           }
         ]
       },
-      "donations_count": 1197,
-      "open_amount_in_cents": 233739,
+      "donations_count": 3,
+      "open_amount_in_cents": 800100,
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/46850-bitte-unterstuetzt-die-tiere-unseres-gnadenhofes"
+          "href": "https://www.betterplace.org/de/projects/1-my-little-project"
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/46850.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/de/api_v4/projects/46850/pictures.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1/pictures.json"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "created_at": "2023-07-24T14:20:35+02:00",
+      "updated_at": "2023-07-24T14:20:35+02:00",
+      "title": "My Berlin Marathon",
+      "type": "FundraisingEvent",
+      "contact": {
+        "id": 3,
+        "name": "u. X",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/3"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/3/contact_data.json"
+          }
+        ]
+      },
+      "progress_percentage": 0,
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_960x500_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_730x380_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_618x322_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_410x214_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_270x141_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/crop_original_f0680aa5-4548-4c18-8eed-4f7f161b6f7e.jpg"
+          }
+        ]
+      },
+      "donated_amount_in_cents": 50000,
+      "donations_count": 1,
+      "links": [
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/1-my-berlin-marathon"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1/pictures.json"
         }
       ]
     }

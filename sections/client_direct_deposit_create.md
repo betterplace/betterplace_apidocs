@@ -2,7 +2,7 @@
 # Creating a Direct Deposit Donation ⇄ [Status](direct_deposit_details.md)
 
 ```Cirru
-POST https://api.betterplace.org/de/api_v4/clients/bergluft/projects/1114/direct_deposits.json
+POST https://api.betterplace.org/de/api_v4/clients/ww-testclient/projects/1/direct_deposits.json
 ```
 
 Create an unconfirmed direct deposit donation to a project.
@@ -41,7 +41,7 @@ or missing data.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>bergluft</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -51,7 +51,7 @@ The betterplace.org-internal client permalink.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -388,11 +388,11 @@ The holder name for the SEPA transaction.
 
 ```json
 {
-  "id": 1563628,
-  "created_at": "2018-08-21T16:52:43+02:00",
-  "updated_at": "2018-09-01T09:00:29+02:00",
-  "reference_id": 1563628,
-  "iban": "DE14672700030088880032",
+  "id": 1,
+  "created_at": "2023-07-24T14:20:39+02:00",
+  "updated_at": "2023-07-24T14:20:39+02:00",
+  "reference_id": 1,
+  "iban": "DE14100500000191151882",
   "holder_name": "gut.org",
   "links": [
 

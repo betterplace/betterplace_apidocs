@@ -2,7 +2,7 @@
 # Project Needs List ⇄ [Details](need_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/needs.json?facets=completed%3Afalse&order=position%3AASC
+GET https://api.betterplace.org/de/api_v4/projects/1/needs.json?facets=completed%3Afalse&order=position%3AASC
 ```
 
 A list of betterplace.org projects needs (donate money).
@@ -26,7 +26,7 @@ to make sure you only request data that is associated with one of your projects.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -256,102 +256,40 @@ Link to the regular donation form.
 
 ```json
 {
-  "total_entries": 110,
-  "offset": 0,
-  "total_pages": 37,
   "current_page": 1,
+  "offset": 0,
   "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "id": 5228,
-      "created_at": "2009-03-10T11:38:39+01:00",
-      "updated_at": "2017-07-04T15:09:32+02:00",
-      "title": "Warme Mahlzeiten",
-      "description": "Wer sich viel bewegt, der muss auch richtig essen: Mit nur 50 Euro im Monat lassen sich 8-10 warme Mahlzeiten für rund 30 Waisenkinder bereitstellen, die zweimal in der Woche von dem Skateistan-Team besucht werden und lernen Skateboard zu fahren.",
-      "completed": true,
-      "progress_percentage": 100.0,
-      "donated_amount_in_cents": 5000,
-      "open_amount_in_cents": 0,
-      "requested_amount_in_cents": 5000,
+      "id": 1,
+      "created_at": "2023-07-24T14:20:28+02:00",
+      "updated_at": "2023-07-24T14:20:28+02:00",
+      "title": "Money for tools",
+      "description": "tools to build some awesome houses",
+      "completed": false,
+      "progress_percentage": 0.0,
+      "donated_amount_in_cents": 0,
+      "open_amount_in_cents": 800100,
+      "requested_amount_in_cents": 800100,
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/5228.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1/needs/1.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1114?need_id=5228",
+          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1?need_id=1",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/de/donate/platform/projects/1114?need_id=5228"
-        }
-      ]
-    },
-    {
-      "id": 5229,
-      "created_at": "2009-03-10T11:54:30+01:00",
-      "updated_at": "2017-07-04T15:09:32+02:00",
-      "title": "Skateboardlehrer",
-      "description": "Mirwais, 13, ist Afghanistans erster talentierter Skateboardlehrer. Früher wusch er für 2 Dollar am Tag Autos auf der Straße. Heute ist er Skateistans Angestellter und kann mit seinem Gehalt (167 Euro/Monat) seine Familie ernähren.",
-      "completed": true,
-      "progress_percentage": 100.0,
-      "donated_amount_in_cents": 16700,
-      "open_amount_in_cents": 0,
-      "requested_amount_in_cents": 16700,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/5229.json"
-        },
-        {
-          "rel": "project",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1114?need_id=5229",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/de/donate/platform/projects/1114?need_id=5229"
-        }
-      ]
-    },
-    {
-      "id": 5237,
-      "created_at": "2009-03-10T15:22:08+01:00",
-      "updated_at": "2017-07-04T15:09:32+02:00",
-      "title": "Skateboardlehrer",
-      "description": "Mirwais, 16, ist Afghanistans erster talentierter Skateboardlehrer. Früher wusch er für 2 Dollar am Tag Autos auf der Straße. Heute ist er Skateistans Angestellter und kann mit seinem Gehalt (167 Euro/Monat) seine Familie ernähren.",
-      "completed": true,
-      "progress_percentage": 100.0,
-      "donated_amount_in_cents": 16700,
-      "open_amount_in_cents": 0,
-      "requested_amount_in_cents": 16700,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/5237.json"
-        },
-        {
-          "rel": "project",
-          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1114?need_id=5237",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/de/donate/platform/projects/1114?need_id=5237"
+          "href": "https://www.betterplace.org/de/donate/platform/projects/1?need_id=1"
         }
       ]
     }

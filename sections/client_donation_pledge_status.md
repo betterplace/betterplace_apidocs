@@ -2,7 +2,7 @@
 # Client Donation Pledges Status ⇄ [Creation](client_donation_pledges_creation.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/devk/donation_pledges/1170.json
+GET https://api.betterplace.org/de/api_v4/clients/devk/donation_pledges/1.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -46,7 +46,7 @@ The betterplace.org-internal client permalink.
   </tr>
   <tr>
     <th align="left">id</th>
-    <td><code>1170</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -216,18 +216,15 @@ Link to the related donation
 ```json
 {
   "id": 1,
-  "created_at": "2016-04-04T17:50:22+02:00",
-  "updated_at": "2016-04-04T17:50:23+02:00",
-  "confirmed_at": "2016-04-04T17:50:23+02:00",
+  "created_at": "2023-07-24T14:20:39+02:00",
+  "updated_at": "2023-07-24T14:20:39+02:00",
+  "confirmed_at": null,
   "failed_at": null,
   "state": "confirmed",
   "failure_code": null,
   "failure_reason": null,
   "links": [
-    {
-      "rel": "donation",
-      "href": "https://api.betterplace.org/de/api_v4/clients/natehelps/client_donations/6f6fa9122f7d1628a139.json"
-    }
+
   ]
 }
 ```

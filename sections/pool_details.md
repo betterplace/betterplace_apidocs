@@ -2,7 +2,7 @@
 # Pool Details
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/payback/pool.json
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/pool.json
 ```
 
 The details of a betterplace.org client pool.
@@ -27,7 +27,7 @@ Use this resource as follows: `/clients/PERMALINK/pool.json`
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>payback</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -131,15 +131,15 @@ Link to this resource itself
 
 ```json
 {
-  "id": 4,
-  "created_at": "2016-01-14T15:12:34+01:00",
-  "updated_at": "2022-02-12T19:55:35+01:00",
-  "donated_amount_in_cents": 105828770,
-  "forwarded_amount_in_cents": 104036054,
+  "id": 2,
+  "created_at": "2023-07-24T14:20:39+02:00",
+  "updated_at": "2023-07-24T14:20:39+02:00",
+  "donated_amount_in_cents": 0,
+  "forwarded_amount_in_cents": 0,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/payback/pool.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/pool.json"
     }
   ]
 }

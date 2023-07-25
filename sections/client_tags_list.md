@@ -2,7 +2,7 @@
 # Client tags list
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/tags.json
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/tags.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -23,7 +23,7 @@ Results are contained in a *data* attribute.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -110,31 +110,20 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> �
 
 ```json
 {
-  "total_entries": 14,
-  "offset": 0,
-  "total_pages": 7,
   "current_page": 1,
+  "offset": 0,
   "per_page": 2,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "tag": "Bedürftige",
-      "slug": "Bedürftige",
-      "projects_count": 13,
+      "tag": "client-tag-1",
+      "slug": "client-tag-1",
+      "projects_count": 0,
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/heidenheim/tags/Bed%C3%BCrftige/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "Inklusion",
-      "slug": "Behinderte",
-      "projects_count": 16,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/heidenheim/tags/Behinderte/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/tags/client-tag-1/projects.json"
         }
       ]
     }

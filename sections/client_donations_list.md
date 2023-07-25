@@ -2,7 +2,7 @@
 # Client Donations List ⇄ [Details](client_donation_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations.json?facets=client_reference%3A922ec9b-etc
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -24,7 +24,7 @@ Results are contained in a *data* attribute.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -365,75 +365,31 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 21545,
-  "offset": 0,
-  "total_pages": 7182,
   "current_page": 1,
+  "offset": 0,
   "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "amount_in_cents": 200,
+      "amount_in_cents": 50000,
       "state": "confirmed",
       "donor": null,
-      "message": "Gemeinsam für Kinder!",
-      "token": "c65e1cd3ff166c67adf7",
+      "message": null,
+      "token": "3vxGYVhi1TCBZ12vncfkefPd",
       "client_reference": null,
-      "created_at": "2011-12-13T13:48:15+01:00",
-      "receiver_type": "FundraisingEvent",
-      "receiver_id": 8821,
-      "receiver_title": "Stark fürs Leben - für die Zukunft unserer Kinder",
+      "created_at": "2023-07-24T14:20:39+02:00",
+      "receiver_type": "Project",
+      "receiver_id": 1,
+      "receiver_title": "my little project",
       "links": [
         {
           "rel": "receiver",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/8821.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/c65e1cd3ff166c67adf7.json"
-        }
-      ]
-    },
-    {
-      "amount_in_cents": 100,
-      "state": "confirmed",
-      "donor": null,
-      "message": "",
-      "token": "e0099cc079adbf1c13c0",
-      "client_reference": null,
-      "created_at": "2012-05-23T16:41:06+02:00",
-      "receiver_type": "FundraisingEvent",
-      "receiver_id": 9866,
-      "receiver_title": "Fab&amp;Vivien Nr. 3 | The third fundraising bet",
-      "links": [
-        {
-          "rel": "receiver",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/9866.json"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/e0099cc079adbf1c13c0.json"
-        }
-      ]
-    },
-    {
-      "amount_in_cents": 1000,
-      "state": "confirmed",
-      "donor": null,
-      "message": "",
-      "token": "cfa60978d12bb91589cf",
-      "client_reference": null,
-      "created_at": "2012-06-12T16:53:03+02:00",
-      "receiver_type": "FundraisingEvent",
-      "receiver_id": 10987,
-      "receiver_title": "Touchrugbyturnier",
-      "links": [
-        {
-          "rel": "receiver",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/10987.json"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/cfa60978d12bb91589cf.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations/3vxGYVhi1TCBZ12vncfkefPd.json"
         }
       ]
     }

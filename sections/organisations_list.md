@@ -474,169 +474,91 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 2,
-  "offset": 0,
-  "total_pages": 1,
   "current_page": 1,
+  "offset": 0,
   "per_page": 2,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "id": 2262,
-      "created_at": "2009-11-02T16:12:49+01:00",
-      "updated_at": "2018-11-07T09:18:16+01:00",
-      "latitude": 50.91569900512695,
-      "longitude": 6.94116020202637,
-      "street": "Stettiner Straße 82",
-      "zip": "50969",
-      "city": "Köln",
+      "id": 1,
+      "created_at": "2023-07-24T14:20:20+02:00",
+      "updated_at": "2023-07-24T14:20:20+02:00",
+      "latitude": 52.51349039999999,
+      "longitude": 13.4626687,
+      "street": "Mainzer Straße 20",
+      "zip": "10247",
+      "city": "Berlin",
       "country": "Deutschland",
-      "content_updated_at": "2018-06-29T09:01:05+02:00",
-      "slug": "unicef",
-      "name": "UNICEF",
-      "description": "UNICEF, das Kinderhilfswerk der Vereinten Nationen, arbeitet weltweit mit Programmen in rund 150 Ländern. UNICEF hilft, dass das Recht jedes Kindes auf Überleben, Bildung und Schutz Wirklichkeit wird: mit konkreten Projekten, umfassenden Programmen und politischer Lobbyarbeit. UNICEF ist in jedem Land seit vielen Jahren vor Ort und hat ein dichtes Netzwerk lokaler Partner. So ist nachhaltige und effiziente Hilfe möglich. Mit dem jährlichen Geschäftsbericht informiert UNICEF ausführlich über Arbeitsweise, Strukturen und Kosten. Sie finden ihn unter www.unicef.de",
+      "content_updated_at": "2023-07-24T14:20:20+02:00",
+      "slug": "permalink1",
+      "name": "Organisation #1",
+      "description": "not a blank description",
       "tax_deductible": true,
       "contact": {
-        "id": 20505,
-        "name": "Jana Schuhmacher (display)",
+        "id": 1,
+        "name": "u. X",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/020/505/fill_100x100_bp1628225975_UNICEF_Logo.jpg"
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
             },
             {
               "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/020/505/crop_original_bp1628225975_UNICEF_Logo.jpg"
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/20505"
+            "href": "https://www.betterplace.org/de/users/1"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/20505/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/1/contact_data.json"
           }
         ]
       },
       "picture": {
+        "fallback": true,
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/262/fill_100x100_bp1530255665_UNICEF_fuerjedesKind_Cyan_Vertical_RGB.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.jpg"
           },
           {
             "rel": "fill_200x200",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/262/fill_200x200_bp1530255665_UNICEF_fuerjedesKind_Cyan_Vertical_RGB.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.jpg"
           },
           {
             "rel": "fill_400x400",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/262/fill_400x400_bp1530255665_UNICEF_fuerjedesKind_Cyan_Vertical_RGB.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.jpg"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/262/crop_original_bp1530255665_UNICEF_fuerjedesKind_Cyan_Vertical_RGB.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/crop_original_default.jpg"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/organisations/2262.json"
+          "href": "https://api.betterplace.org/de/api_v4/organisations/1.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/organisations/2262-unicef"
+          "href": "https://www.betterplace.org/de/organisations/1-organisation-1"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/organisations/2262/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/organisations/1/projects.json"
         },
         {
           "rel": "website",
-          "href": "http://www.unicef.de"
-        }
-      ]
-    },
-    {
-      "id": 125,
-      "created_at": "2008-02-06T17:10:42+01:00",
-      "updated_at": "2022-02-11T00:01:12+01:00",
-      "latitude": 53.55759811401367,
-      "longitude": 9.96815967559815,
-      "street": "Mühlgasse 175",
-      "zip": "20357",
-      "city": "Hamburg",
-      "country": "Deutschland",
-      "content_updated_at": "2020-04-09T18:24:12+02:00",
-      "slug": "vivaconagua",
-      "name": "Viva con Agua de Sankt Pauli e.V.",
-      "description": "Viva con Agua aktiviert und inspiriert - für eine Welt ohne Durst!<br><br>Viva con Agua ist ein internationales Netzwerk von Menschen und Organisationen, das sich für den sicheren Zugang zu sauberem Trinkwasser und sanitärer Grundversorgung einsetzt. <br>2006 wurde der gemeinnützige Verein Viva con Agua de Sankt Pauli ins Leben gerufen. <br>Inzwischen unterstützen die Vision „WASSER FÜR ALLE – ALLE FÜR WASSER“ mehr als 15.000 ehrenamtliche Supporter, die mit zahlreichen Aktionen und ebenso viel Spaß Spenden für WASH-Projekte weltweit sammeln – darunter viele Künstler und Musiker. <br>Gemeinsam seinen internationalen und lokalen Partnerorganisationen konnte die Bewegung so bereits über drei Millionen Menschen in WASH-Projekten (WAter, Sanitation, Hygiene) erreichen.<br><br>Neben dem Hamburger Verein zählen mittlerweile die Viva con Agua Stiftung und lokal aktive Organisationen in Uganda, Österreich, den Niederlanden, der Schweiz und neuerdings in Südafrika und Kalifornien zum international tätigen Netzwerk. Darüber hinaus unterstützen die ausgegründeten Social Business Unternehmen Viva con Agua Wasser GmbH, Viva con Agua ARTS gGmbH und Goldeimer gGmbH mit ihren Aktivitäten die Trinkwasser- und Sanitärprojekte von VcA.<br><br>WASSER FÜR ALLE - ALLE FÜR WASSER!",
-      "tax_deductible": true,
-      "contact": {
-        "id": 561728,
-        "name": "Lucas\tMason\tAlexander Köhler (display)",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/561/728/fill_100x100_bp1587649479_VCA_Tropfen.png"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/561/728/crop_original_bp1587649479_VCA_Tropfen.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/561728"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/561728/contact_data.json"
-          }
-        ]
-      },
-      "picture": {
-        "links": [
-          {
-            "rel": "fill_100x100",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_100x100_VcA_Projektlogo.jpg"
-          },
-          {
-            "rel": "fill_200x200",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_200x200_VcA_Projektlogo.jpg"
-          },
-          {
-            "rel": "fill_400x400",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_400x400_VcA_Projektlogo.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/000/125/crop_original_VcA_Projektlogo.jpg"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/organisations/125.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/organisations/125-viva-con-agua-de-sankt-pauli-e-v"
-        },
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/organisations/125/projects.json"
-        },
-        {
-          "rel": "website",
-          "href": "http://www.vivaconagua.org"
+          "href": ""
         }
       ]
     }

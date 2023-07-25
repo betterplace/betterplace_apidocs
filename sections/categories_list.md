@@ -2,7 +2,7 @@
 # Project Categories List
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/categories.json
+GET https://api.betterplace.org/de/api_v4/projects/1/categories.json
 ```
 
 A list of betterplace.org project categories.
@@ -20,7 +20,7 @@ Results are contained in a *data* attribute.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -121,48 +121,22 @@ Permalink to betterplace.org discover category
 
 ```json
 {
-  "total_entries": 3,
-  "offset": 0,
-  "total_pages": 1,
   "current_page": 1,
+  "offset": 0,
   "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "id": 3,
-      "created_at": "2016-12-13T16:18:14+01:00",
-      "updated_at": "2018-12-03T17:26:13+01:00",
-      "name": "Bildung",
-      "slug": "bildung",
+      "id": 1,
+      "created_at": "2023-07-24T14:20:19+02:00",
+      "updated_at": "2023-07-24T14:20:19+02:00",
+      "name": "Highly interesting",
+      "slug": null,
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover/3-bildung"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "created_at": "2016-12-13T17:07:22+01:00",
-      "updated_at": "2018-03-02T12:21:51+01:00",
-      "name": "Sport",
-      "slug": "sport",
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover/15-sport"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "created_at": "2016-12-13T16:17:58+01:00",
-      "updated_at": "2021-11-04T09:09:35+01:00",
-      "name": "Kinder und Jugend",
-      "slug": "kinder",
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover/2-kinder"
+          "href": "https://www.betterplace.org/de/discover/1"
         }
       ]
     }

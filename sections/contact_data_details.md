@@ -2,7 +2,7 @@
 # User Contact Data Details
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/users/250285/contact_data.json
+GET https://api.betterplace.org/de/api_v4/users/2/contact_data.json
 ```
 
 Name and email for the given user.
@@ -26,7 +26,7 @@ See [betterplace.org clients](../README.md#client-api).
   </tr>
   <tr>
     <th align="left">user_id</th>
-    <td><code>250285</code></td>
+    <td><code>2</code></td>
     <td>yes</td>
 <td>
 
@@ -96,9 +96,9 @@ The email address of the user or donor.
 
 ```json
 {
-  "first_name": "Taylan",
-  "last_name": "Oswald",
-  "email": "mjo@betterplace.org",
+  "first_name": "User 2",
+  "last_name": "X",
+  "email": "user2@betterplace.org",
   "links": [
 
   ]

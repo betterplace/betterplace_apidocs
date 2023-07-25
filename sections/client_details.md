@@ -2,7 +2,7 @@
 # Client Details
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund.json
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient.json
 ```
 
 This API endpoint returns links to more specific information about this client.
@@ -18,7 +18,7 @@ This API endpoint returns links to more specific information about this client.
   </tr>
   <tr>
     <th align="left">id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -143,32 +143,32 @@ Link to the <a href="fundraising_event_statistics_list.md">fundraising event sta
   "links": [
     {
       "rel": "projects",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/projects.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/projects.json"
     },
     {
       "rel": "client_donations",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations.json"
     },
     {
       "rel": "client_project_tags",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/tags.json"
     },
     {
       "rel": "client_fundraising_events",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/fundraising_events.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/fundraising_events.json"
     },
     {
       "rel": "project_mailing_subscriptions",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/%7Bproject_id%7D/mailing_subscriptions.json",
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/projects/%7Bproject_id%7D/mailing_subscriptions.json",
       "templated": true
     },
     {
       "rel": "project_statistics",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/project_statistics.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/project_statistics.json"
     },
     {
       "rel": "fundraising_event_statistics",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/fundraising_event_statistics.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/fundraising_event_statistics.json"
     }
   ]
 }

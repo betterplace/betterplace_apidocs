@@ -2,7 +2,7 @@
 # Client Newsletter OptIns
 
 ```Cirru
-POST https://api.betterplace.org/de/api_v4/clients/volksfreund/newsletter_opt_ins.json
+POST https://api.betterplace.org/de/api_v4/clients/ww-testclient/newsletter_opt_ins.json
 ```
 
 Start the opt-in process to subscribe an email address to the
@@ -30,7 +30,7 @@ entity). [More error codes](../README.md#http-status-codes).
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 

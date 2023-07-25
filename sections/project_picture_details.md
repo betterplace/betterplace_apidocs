@@ -2,7 +2,7 @@
 # Project Picture Details ⇄ [List](project_pictures_list.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/pictures/286505.json
+GET https://api.betterplace.org/de/api_v4/projects/3/pictures/1.json
 ```
 
 The details of a betterplace.org project picture.
@@ -26,7 +26,7 @@ projects, the API will return a `404` HTTP code.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>3</code></td>
     <td>yes</td>
 <td>
 
@@ -36,7 +36,7 @@ Project id as an integer number.
   </tr>
   <tr>
     <th align="left">id</th>
-    <td><code>286505</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -199,38 +199,38 @@ The parent object of this picture.
 
 ```json
 {
-  "id": 266144,
-  "created_at": "2021-11-24T11:38:20+01:00",
-  "updated_at": "2021-11-24T11:38:20+01:00",
+  "id": 1,
+  "created_at": "2023-07-24T14:20:33+02:00",
+  "updated_at": "2023-07-24T14:20:33+02:00",
   "description": null,
   "links": [
     {
       "rel": "image",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/image.png"
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/image.jpg"
     },
     {
       "rel": "limit_620x323",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_620x323_image.png"
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_620x323_image.jpg"
     },
     {
       "rel": "limit_620x323_2x",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_620x323_2x_image.png"
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_620x323_2x_image.jpg"
     },
     {
       "rel": "limit_450x235",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_450x235_image.png"
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_450x235_image.jpg"
     },
     {
       "rel": "limit_450x235_2x",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_450x235_2x_image.png"
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_450x235_2x_image.jpg"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266144.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/3/pictures/1.json"
     },
     {
       "rel": "parent",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/3.json"
     }
   ]
 }

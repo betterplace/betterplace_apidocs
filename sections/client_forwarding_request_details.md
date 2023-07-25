@@ -211,18 +211,15 @@ Link to the related donation
 ```json
 {
   "id": 1,
-  "created_at": "2017-03-17T10:12:08+01:00",
-  "updated_at": "2017-03-17T10:12:09+01:00",
-  "confirmed_at": "2017-03-17T10:12:09+01:00",
+  "created_at": "2023-07-24T14:20:39+02:00",
+  "updated_at": "2023-07-24T14:20:39+02:00",
+  "confirmed_at": null,
   "failed_at": null,
-  "state": "confirmed",
+  "state": "pending",
   "failure_code": null,
   "failure_reason": null,
   "links": [
-    {
-      "rel": "donation",
-      "href": "https://api.betterplace.org/de/api_v4/clients/particulate-sww/client_donations/b99fe8ce93dda908f81b.json"
-    }
+
   ]
 }
 ```

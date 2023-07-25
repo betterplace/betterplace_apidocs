@@ -2,7 +2,7 @@
 # Client-project tags list
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/projects/1/tags.json?order=projects_count%3ADESC
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -28,7 +28,7 @@ request as explained below.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -38,7 +38,7 @@ The betterplace.org-internal client permalink
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>4425</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -149,42 +149,20 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
 
 ```json
 {
-  "total_entries": 5,
-  "offset": 0,
-  "total_pages": 2,
   "current_page": 1,
+  "offset": 0,
   "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "tag": "Trier",
-      "slug": "Trier",
-      "projects_count": 31,
+      "tag": "client-tag-1",
+      "slug": "client-tag-1",
+      "projects_count": 0,
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/Trier/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "KinderJugendliche",
-      "slug": "KinderJugendliche",
-      "projects_count": 33,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "Familien",
-      "slug": "Familien",
-      "projects_count": 10,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/Familien/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/tags/client-tag-1/projects.json"
         }
       ]
     }

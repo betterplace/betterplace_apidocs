@@ -2,7 +2,7 @@
 # Client Project Statistics
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/project_statistics.json
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/project_statistics.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -20,7 +20,7 @@ Some client statistics for a betterplace.org client. All results are cached for 
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 

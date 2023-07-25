@@ -1,8 +1,6 @@
 # ThirdPartyApp custom donation form for organisations (BETA)
 
-
-*BETA: This is the second draft of this documentation. Please send us feedback at product@betterplace.org. Or via pull request. Thanks!*
-
+_BETA: This is the second draft of this documentation. Please send us feedback at product@betterplace.org. Or via pull request. Thanks!_
 
 ## Introduction
 
@@ -12,17 +10,15 @@ It is meant for organisations that want to develop and maintain a custom donatio
 
 This feature is distinct from our [json-API v4](https://github.com/betterplace/betterplace_apidocs) which you can use to fetch data from the betterplace.org platform.
 
-
 ### Example Integrations
 
-* [Gaunting Live](https://www.gauting.live/), to support culture in Gauting during the pandemic.
-* [Ablass App](http://www.ablass-app.de/), where you can clean your conscience.
-* [Tramprennen](https://tramprennen.org/) and [Floßrennen](http://flossrennen.tramprennen.org/) ([GitHub](https://github.com/Club-of-Roam/cor-mgmt)) is a race where you can support one of the teams.
-* _(Closed)_ [Donatify me](http://donatify.me/), where you can get Edward to do stuff for you.
-* _(Closed)_ [MADAide](http://madaide.org/?page_id=578), where you can donate to mark a specific piece of the football field with your name.
-* _(Closed)_ [Seeds of Kindness 3](http://yoursiblings.org/portico/seeds-of-kindness-3), where you get a mp3 download link after your donation. Also there is a leader board and referrer-system.
-* _(Closed)_ [Tierheim Berlin](http://www.tierheim-geschenke.de/), where you can view and donate to specific needs of the project.
-
+- [Gaunting Live](https://www.gauting.live/), to support culture in Gauting during the pandemic.
+- [Ablass App](http://www.ablass-app.de/), where you can clean your conscience.
+- [Tramprennen](https://tramprennen.org/) and [Floßrennen](http://flossrennen.tramprennen.org/) ([GitHub](https://github.com/Club-of-Roam/cor-mgmt)) is a race where you can support one of the teams.
+- _(Closed)_ [Donatify me](http://donatify.me/), where you can get Edward to do stuff for you.
+- _(Closed)_ [MADAide](http://madaide.org/?page_id=578), where you can donate to mark a specific piece of the football field with your name.
+- _(Closed)_ [Seeds of Kindness 3](http://yoursiblings.org/portico/seeds-of-kindness-3), where you get a mp3 download link after your donation. Also there is a leader board and referrer-system.
+- _(Closed)_ [Tierheim Berlin](http://www.tierheim-geschenke.de/), where you can view and donate to specific needs of the project.
 
 ### UserFlow
 
@@ -34,12 +30,9 @@ This is a typical user flow when you use the ThirdPartyApp custom donation form 
 4. The donation takes place on betterplace.org
 5. We redirect the user back to your page and provide callback parameters
 
-
 ### Alternative solutions
 
-Before you start considering the ThirdPartyApp custom donation form please make sure to check out the other online donation tools that betterplace.org provides. Especially the integrated donation form (iFrame). For more, please visit the [German](https://www.betterplace.org/c/hilfe/) or [English help area](https://www.betterplace.org/c/help).
-
-
+Before you start considering the ThirdPartyApp custom donation form please make sure to check out the other online donation tools that betterplace.org provides. Especially the integrated donation form (iFrame). For more, please visit the [German](https://support.betterplace.org/hc/de) or [English help area](https://www.betterplace.org/c/help).
 
 ## How to get it
 
@@ -59,27 +52,24 @@ We will check your proposal and get back to you. This is a special service in te
 * Contact e-mail: To keep you posted about changes.
 ```
 
-
 ## Terms of use
 
 This is a special service in testing. Nothing is final or fixed. And it's beta. So don't say we didn't warn you!
 
-* There is no support from the betterplace.org team for this feature other than this documentation
-* All terms of use and privacy policy of betterplace.org apply
-* We will inform you about changes 7 days ahead via the e-mail address that you provided
-* Should we consider discontinuing this service we will inform you 3 month ahead
-* The code that you write to integrate this donation form in your flow has to be open sourced under Apache License 2.0 for everyones benefit
-
-
+- There is no support from the betterplace.org team for this feature other than this documentation
+- All terms of use and privacy policy of betterplace.org apply
+- We will inform you about changes 7 days ahead via the e-mail address that you provided
+- Should we consider discontinuing this service we will inform you 3 month ahead
+- The code that you write to integrate this donation form in your flow has to be open sourced under Apache License 2.0 for everyones benefit
 
 ## How to use it
 
 After everything is set up by betterplace.org (see [How to get it](#how-to-get-it)), you just need to construct the donation form URL and make sure your callback URL can handle the response.
 
-
 ### Donation form URL and input parameter
 
-*Example:*
+_Example:_
+
 <pre>
 https://www.betterplace.org/de/donate/ablass/projects/480?client_reference=wZo2aZCjJHA2CONAXxIQHt&donation_amount=40
 </pre>
@@ -140,15 +130,14 @@ https://www.betterplace.org/de/donate/ablass/projects/480?client_reference=wZo2a
 
 Please not that the ThirdPartyApp custom donation form does not allow color and layout changes. If you need those, consider using the [integrated donation form (iFrame)](#alternative-solutions).
 
-
-
 ### Redirect URL and response parameter
 
 This URL is part of the configuration that needs to be done by betterplace.org (see [How to get it](#how-to-get-it)). We will redirect the donor to this URL after a successful donation. We will also extend the URL with the following reponse parameter.
 
-*Cool urls dont change:* We cannot change this URL after we created you ThirPartyApp ID. Please consider redirecting inside your application.
+_Cool urls dont change:_ We cannot change this URL after we created you ThirPartyApp ID. Please consider redirecting inside your application.
 
-*Example:*
+_Example:_
+
 <pre>
 https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_reference=wZo2aZCjJHA2CONAXxIQHt
 </pre>
@@ -205,14 +194,11 @@ https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_r
   </tr>
 </table>
 
-
-
 ## Handling the post donation
 
 Once you the user clicked on your donation link, there are a number of things that can happen.
 
 Should your application rely on a sum or count of valid donations (for things linke a leader board or a specific way to display a valid donation for example), you need to take care of those things in your application:
-
 
 ```
 User opens the ThirdPartyApp donation form with your client_reference
@@ -222,19 +208,18 @@ User opens the ThirdPartyApp donation form with your client_reference
 ┗ User goes away or donation fails → Case 2
 ```
 
-
 ### Post donation case 1: Reconcilitian
 
-*Szenario:* The user donated successfully and the redirect took place.
+_Szenario:_ The user donated successfully and the redirect took place.
 
-*Result:* You receive the DONATION_SUCCESS message via the redirect URL.
+_Result:_ You receive the DONATION_SUCCESS message via the redirect URL.
 
 You can be sure that the donation was successfully processed and is saved in the betterplace.org database. BUT: There are a few ways that this donation might be canceled again later (by the bank or the user most likely).
 
-*Next steps:* You need to check for at least 14 days if the donation stays "confirmed".
+_Next steps:_ You need to check for at least 14 days if the donation stays "confirmed".
 
-* Option 1: Use the [client_donation_details](../sections/client_donation_details.md) API with the **donation_token** (see [Response parameter](#redirect-url-and-response-parameter)).
-* Option 2: Use the [client_donations_list](../sections/client_donations_list.md) API and search for your **client_reference**
+- Option 1: Use the [client_donation_details](../sections/client_donation_details.md) API with the **donation_token** (see [Response parameter](#redirect-url-and-response-parameter)).
+- Option 2: Use the [client_donations_list](../sections/client_donations_list.md) API and search for your **client_reference**
 
 The donation is (still) valid, if there is an API response with a **state:"confirmed"** attribute.
 The donation is invalid if the API response is a 404 (donation_token) or an the search is empty (client_reference).
@@ -243,20 +228,16 @@ Usually the state of a donation will only change during the first 14 days. In so
 
 ### Post donation case 2: Unknown state
 
-*Szenario A:* The user does not donate and leaves – for whatever reason.
-*Szenario B:* The user donated successfully but the redirect _breaks_ (network connectivity, user cancels request, …).
+_Szenario A:_ The user does not donate and leaves – for whatever reason.
+_Szenario B:_ The user donated successfully but the redirect _breaks_ (network connectivity, user cancels request, …).
 
-*Result:* You don't know nothing about what's going on. Most importantly: You cannot be sure the donation did _not_ take place.
+_Result:_ You don't know nothing about what's going on. Most importantly: You cannot be sure the donation did _not_ take place.
 
-*Next steps*: Use the [client_donations_list](../sections/client_donations_list.md) API and search for the **client_reference** that you created once the user clicked on the link to the donation form on your website. You should save the client_refernce for this reason when you generate the link (not just when you receive the callback). You should also wait for at least two minutes before you recheck to give the user time to submit the donation.
-
-
+_Next steps_: Use the [client_donations_list](../sections/client_donations_list.md) API and search for the **client_reference** that you created once the user clicked on the link to the donation form on your website. You should save the client_refernce for this reason when you generate the link (not just when you receive the callback). You should also wait for at least two minutes before you recheck to give the user time to submit the donation.
 
 ## Clients of betterplace.org / Whitelabeling
 
 The core for this ThirdPartyApp donation form is the technology that runs our client donation forms. The main difference being, that client donation forms are always whitelabeled to fit the design of the client application. Please get in touch for more information.
-
-
 
 ## Feedback
 

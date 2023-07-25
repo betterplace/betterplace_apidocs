@@ -2,7 +2,7 @@
 # Fundraising Event Forwardings List
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events/19267/forwardings.json
+GET https://api.betterplace.org/de/api_v4/fundraising_events/1/forwardings.json
 ```
 
 A list of forwarings from the fundraising event to its projects.
@@ -21,7 +21,7 @@ A list of forwarings from the fundraising event to its projects.
   </tr>
   <tr>
     <th align="left">fundraising_event_id</th>
-    <td><code>19267</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -116,39 +116,24 @@ Link to the project on betterplace.org. Can be blank if project is hidden.
 
 ```json
 {
-  "total_entries": 2,
-  "offset": null,
-  "total_pages": 1,
   "current_page": 1,
+  "offset": null,
   "per_page": null,
+  "total_entries": 1,
+  "total_pages": 1,
   "data": [
     {
-      "forwarded_amount_in_cents": 76900,
-      "title": "Pro-A-kids e.V.-Hilfe für die Kinder Kongonis",
-      "project_id": 358,
+      "forwarded_amount_in_cents": 25000,
+      "title": "my little project",
+      "project_id": 1,
       "links": [
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/de/api_v4/projects/358.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/358-pro-a-kids-e-v-hilfe-fuer-die-kinder-kongonis"
-        }
-      ]
-    },
-    {
-      "forwarded_amount_in_cents": 15702,
-      "title": "Die Arche: Mittagstisch für bedürftige Kinder",
-      "project_id": 7910,
-      "links": [
-        {
-          "rel": "project",
-          "href": "https://api.betterplace.org/de/api_v4/projects/7910.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/7910-die-arche-mittagstisch-fuer-beduerftige-kinder"
+          "href": "https://www.betterplace.org/de/projects/1-my-little-project"
         }
       ]
     }
