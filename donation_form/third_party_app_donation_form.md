@@ -37,7 +37,7 @@ This is a typical user flow when you use the ThirdPartyApp custom donation form 
 
 ### Alternative solutions
 
-Before you start considering the ThirdPartyApp custom donation form please make sure to check out the other online donation tools that betterplace.org provides. Especially the integrated donation form (iFrame). For more, please visit the [German](https://www.betterplace.org/c/hilfe/) or [English help area](https://www.betterplace.org/c/help).
+Before you start considering the ThirdPartyApp custom donation form please make sure to check out the other online donation tools that betterplace.org provides. Especially the integrated donation form (iFrame). For more, please visit the [German](https://support.betterplace.org/hc/de) or [English help area](https://www.betterplace.org/c/help).
 
 
 

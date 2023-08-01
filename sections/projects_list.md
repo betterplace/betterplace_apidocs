@@ -164,6 +164,8 @@ has this project been closed by the project manager? See <code>closed_at</code>
 <li><code>prohibit_donations:true/false</code> –
 are donations to this project forbidden at the moment? Closed and blocked projects
 will always return true, for example.
+<li><code>category_ids:44</code> – does the project belong to this category?
+<li><code>category_ids[,]:44,16</code> – does the project belong to any of these categories?
 </ul>
 It is possible to set multiple facet filters.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
