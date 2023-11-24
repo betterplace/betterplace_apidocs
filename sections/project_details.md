@@ -148,6 +148,28 @@ DateTime (ISO8601 with Timezone)
 </td>
     </tr>
     <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="matching_events-ref" href="#matching_events">
+            ↓matching_events
+          </a>
+        </th>
+      <td><code></code></td>
+      <td><code>[
+  {
+    id: 1,
+    matching_percentage: 25.0,
+    banner_background_color: '#F6CE46',
+    banner_text_color: '#282828'
+  }
+]
+</code></td>
+<td>
+
+Data on matching events including this resource
+
+</td>
+    </tr>
+    <tr>
       <th align="left">activated_at</th>
       <td><code>null &#124; string</code></td>
       <td><code>"1994-11-05T13:15:30Z"</code></td>
@@ -473,6 +495,67 @@ the data from the appropriate endpoint.
 
 **This is an experimental feature and is still under heavy development. Please use it with caution.**
 
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">around_distance</th>
+      <td><code>number</code></td>
+      <td><code>666.23</code></td>
+<td>
+
+Distance to around location in meters
+
+</td>
+    </tr>
+  </table>
+
+### <a id="matching_events" href="#matching_events-ref">↑Nested Attributes: matching_events</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">matching_events.id</th>
+      <td><code>number</code></td>
+      <td><code>1</code></td>
+<td>
+
+An integer number ≥ 1
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_events.matching_percentage</th>
+      <td><code>number</code></td>
+      <td><code>25.0</code></td>
+<td>
+
+A number greater than 0.01
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_events.banner_background_color</th>
+      <td><code>string</code></td>
+      <td><code>#F6CE46</code></td>
+<td>
+
+The HEX representation of the banner's background color
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_events.banner_text_color</th>
+      <td><code>string</code></td>
+      <td><code>#282828</code></td>
+<td>
+
+The HEX representation of the banner's color
 
 </td>
     </tr>
