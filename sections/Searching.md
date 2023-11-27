@@ -131,6 +131,28 @@ Decimal degrees based on user input
 </td>
     </tr>
     <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="matching_events-ref" href="#matching_events">
+            ↓matching_events
+          </a>
+        </th>
+      <td><code></code></td>
+      <td><code>[
+  {
+    id: 1,
+    matching_percentage: 25.0,
+    banner_background_color: '#F6CE46',
+    banner_text_color: '#282828'
+  }
+]
+</code></td>
+<td>
+
+Data on matching events including this resource
+
+</td>
+    </tr>
+    <tr>
       <th align="left">title</th>
       <td><code>string</code></td>
       <td><code>Katzenspass</code></td>
@@ -250,6 +272,57 @@ Count of confirmed donations for this entity
 <td>
 
 How many cents are needed to complete the project
+
+</td>
+    </tr>
+  </table>
+
+### <a id="matching_events" href="#matching_events-ref">↑Nested Attributes: matching_events</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">matching_events.id</th>
+      <td><code>number</code></td>
+      <td><code>1</code></td>
+<td>
+
+An integer number ≥ 1
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_events.matching_percentage</th>
+      <td><code>number</code></td>
+      <td><code>25.0</code></td>
+<td>
+
+A number greater than 0.01
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_events.banner_background_color</th>
+      <td><code>string</code></td>
+      <td><code>#F6CE46</code></td>
+<td>
+
+The HEX representation of the banner's background color
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_events.banner_text_color</th>
+      <td><code>string</code></td>
+      <td><code>#282828</code></td>
+<td>
+
+The HEX representation of the banner's color
 
 </td>
     </tr>
@@ -664,6 +737,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "updated_at": "2022-08-30T08:42:51+02:00",
       "latitude": 52.3333333,
       "longitude": 12.35,
+      "matching_events": [],
       "title": "Ein Monat Futter und Medikamente",
       "type": "Project",
       "contact": {
@@ -771,6 +845,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "updated_at": "2022-02-12T20:00:50+01:00",
       "latitude": 53.75017166137695,
       "longitude": 91.40022277832031,
+      "matching_events": [],
       "title": "Das letzte siebte Leben - Hilfe für Svetlana",
       "type": "Project",
       "contact": {
@@ -878,6 +953,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "updated_at": "2022-02-12T20:21:39+01:00",
       "latitude": 52.1022162,
       "longitude": 10.65928710000003,
+      "matching_events": [],
       "title": "Bitte unterstützt die Tiere unseres Gnadenhofes",
       "type": "Project",
       "contact": {
