@@ -2,7 +2,7 @@
 
 
 # UPDATE: This version of the donation form will be shout down on July 1st 2024
-Until then the description below is available for reference
+Until then the information below is available for reference
 
 ## Introduction
 
