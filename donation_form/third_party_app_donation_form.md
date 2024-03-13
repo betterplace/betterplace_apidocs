@@ -1,8 +1,8 @@
 # ThirdPartyApp custom donation form for organisations (BETA)
 
 
-*BETA: This is the second draft of this documentation. Please send us feedback at product@betterplace.org. Or via pull request. Thanks!*
-
+# UPDATE: This version of the donation form will be shout down on July 1st 2024
+Until then the description below is available for reference
 
 ## Introduction
 
