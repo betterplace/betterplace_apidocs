@@ -8,10 +8,12 @@ It incorporates some ideas from [hypermedia APIs](https://www.google.de/search?q
 such as the link structure.
 
 
-#### Please provide feedback
-Please don't hesitate to send feedback about the API and this documentation
-to api@betterplace.org.
-
+## ⚠️ This api is slowly getting deprecated! ⚠️
+This means:
+* we will only fix bugs and provide support for registered clients who also use our client API.
+* no new features will be added to it
+* we don not take any responsibility if things you build based on it suddenly break
+* there is no official EOL date and due to it's public nature we might not have the possibility to inform you if we decide on one
 
 ## Table of content
 
