@@ -12,7 +12,7 @@ such as the link structure.
 This means:
 * we will only fix bugs and provide support for registered clients who also use our client API.
 * no new features will be added to it
-* we don not take any responsibility if things you build based on it suddenly break
+* we do not take any responsibility if things you build based on it suddenly break
 * there is no official EOL date and due to it's public nature we might not have the possibility to inform you if we decide on one
 
 ## Table of content
