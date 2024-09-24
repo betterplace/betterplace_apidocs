@@ -103,6 +103,7 @@ This means:
 * Authentication: Most API calls are public.
   Some client API features require authentication. [Learn more](#client-authentication)
 * The data of betterplace Users is not part of the API at this moment.
+* There is also a possibility to receive webhooks from beterplace.org whenever your fundraising event receives a donation. This functionality is separate from api_v4 and used internally and externally for streaming widgets and other custom alert implementations. For more information regarding this, please watch our [livestream widget tutorial video](https://www.youtube.com/watch?v=3-DkrkkPC4o) and set up a fundraising event on betterplace.org.
 
 
 ### Request parameter format
