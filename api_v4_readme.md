@@ -21,6 +21,7 @@ It is split into a public, unauthenticated API and a private, authenticated Clie
    - [Error Messages](#error-messages)
    - [Known Issues](#known-issues)
    - [API Client Libraries](#api-client-libraries)
+   - [Changelog](CHANGELOG.md)
    - [Code Examples](#code-examples)
 
 ## Public API
