@@ -39,13 +39,6 @@ These products include:
 
 You can find more information and examples of streams like Friendly Fire and März mit Herz on our [dedicated page for streamers](https://www.betterplace.org/c/spenden-sammeln/charity-stream), watch our [livestream widget tutorial video](https://www.youtube.com/watch?v=3-DkrkkPC4o) or reach out to our team at charitystream@betterplace.org for expert support with your charity stream idea.
 
-## Example apps
-* "Deutsch-Tansanische Partnerschaft e.V." uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
-* ["Förderverein Freie Netzwerke e.V."](http://foerderverein.freie-netzwerke.de/spenden/) uses this API to present their betterplace.org projects right on their website.
-* ["Alfred-Kunze-Sportpark"](http://alfred-kunze-sportpark.de/teilziele.php) uses this API to present all needs for their one betterplace.org project right on their website.
-* ["Earthship Tempelhof"](http://www.earthship-tempelhof.de/#spenden) uses this API to embed our integrated donation form (iframe) alongside information about the project status.
-* _Please send us your sites to api@betterplace.org_
-
 ## About betterplace.org
 Learn more about betterplace at https://www.betterplace.org/c/about-us/
 
