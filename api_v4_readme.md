@@ -29,10 +29,11 @@ This Api is fully public and unauthenticated. While everybody is free to use it 
 
 ### ⚠️ This api is slowly getting deprecated! ⚠️
 This means:
+* EOL: 01.07.2026
 * we will only fix bugs and provide support for registered clients who also use our client API.
 * no new features will be added to it
 * we do not take any responsibility if things you build based on it suddenly break
-* there is no official EOL date and due to it's public and unauthenticated nature we might not have the possibility to inform you if we decide to discontinue providing this api
+* due to it's public and unauthenticated nature we might not have the possibility to inform you if we decide to discontinue providing this api
 
 ### Endpoints public api
 - Projects
