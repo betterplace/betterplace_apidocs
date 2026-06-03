@@ -5,7 +5,7 @@ such as the link structure.
 It is split into a public, unauthenticated API and a private, authenticated Client-API. The public API is getting deprecated.
 
 ### Table of Contents
-1. [Public API](#public-api) (⚠️ deprecated ⚠️)
+1. [Public API](#public-api)
    - [Endpoints](#endpoints-public-api)
 2. [Client API](#client-api)
    - [Client Authentication](#client-authentication)
