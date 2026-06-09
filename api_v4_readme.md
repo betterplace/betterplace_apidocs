@@ -5,7 +5,7 @@ such as the link structure.
 It is split into a public, unauthenticated API and a private, authenticated Client-API. The public API is getting deprecated.
 
 ### Table of Contents
-1. [Public API](#public-api) (⚠️ deprecated ⚠️)
+1. [Public API](#public-api)
    - [Endpoints](#endpoints-public-api)
 2. [Client API](#client-api)
    - [Client Authentication](#client-authentication)
@@ -29,11 +29,11 @@ This Api is fully public and unauthenticated. While everybody is free to use it 
 
 ### ⚠️ This api is slowly getting deprecated! ⚠️
 This means:
-* EOL: 01.07.2026
+* we will keep the current endpoint available for the foreseeable future, but we reserve the right to upgrade it at any time — adding optional authentication or simplifying the contract — to maintain security and performance.
 * we will only fix bugs and provide support for registered clients who also use our client API.
-* no new features will be added to it
+* no new features will be added to the current version
 * we do not take any responsibility if things you build based on it suddenly break
-* due to it's public and unauthenticated nature we might not have the possibility to inform you if we decide to discontinue providing this api
+* due to it's public and unauthenticated nature we might not have the possibility to inform you if we decide to discontinue providing this api version
 
 ### Endpoints public api
 - Projects
