@@ -21,6 +21,48 @@ You can find more information by clicking on "Donation form"/"Spendenformular" i
 
 `https://www.betterplace.org/de/manage/projects/<your Project ID>/iframe_donation_form/new`
 
+### Known limitation: `load_donation_iframe.js` pollutes the global lexical scope
+
+The snippet that the portal generates includes a remote `<script src=".../load_donation_iframe.js" type="text/javascript">`. That bundle is a non-IIFE-wrapped script that declares roughly 150 single-letter `const`/`let`/`function` identifiers at top level — including a bare `$`, plus other very common single-letter names (`o`, `r`, `s`, `c`, `u`, `d`, `f`, `g`, `h`, `i`, `j`, `k`, `m`, `p`, `t`, `v`, `w`, `x`, `y`, `z`, …). In classic scripts (which is what the snippet uses), all top-level `let`/`const`/`class`/function declarations land in the shared **global lexical environment** of the realm.
+
+Consequence: if any other classic script on the page also declares `let $ = …` or `const $ = …` at top level (a browser extension, a second `iframe-resizer` instance loaded by another plugin, a build artifact from another vendor, …), parsing fails at load time with:
+
+```
+Uncaught SyntaxError: Identifier '$' has already been declared
+```
+
+Because this is a *parse-time* error, the loader script never runs — so its `loadDonationIframe()` call never fires and the embedding container stays at the spinner forever. The error is reported against the file that loses the race (often a Google Maps API request `js?…&callback=…`), making the actual root cause non-obvious.
+
+**Suggested upstream fix:** wrap the bundle output in an IIFE before it is served, e.g. `(function(){/* bundle */})();`. That keeps all declarations function-scoped and avoids polluting the global lexical environment entirely. Alternatively, serve the bundle as `<script type="module">`, which scopes top-level declarations to the module.
+
+**Workaround for integrators:** until the upstream loader is wrapped, you can skip the JS loader entirely and embed the iframe directly. The URL shape that `getIframeSource()` in the loader builds is:
+
+```
+https://www.betterplace.org/<lang>/donate/iframe/<receiver_type>s/<receiver_id>
+  ?background_color=<hex without #>
+  &color=<hex without #>
+  &donation_amount=<1–99>
+  &bottom_logo=<true|false>
+  &default_payment_method=<""|paypal|stripe|stripe_sepa_debit|apple_pay|google_pay>
+  &default_interval=<single|monthly|yearly>
+```
+
+Example (project `4667`, default 10 €, accent color `6c9c2e`, one-off):
+
+```html
+<iframe
+  src="https://www.betterplace.org/de/donate/iframe/projects/4667?background_color=ffffff&color=6c9c2e&donation_amount=10&bottom_logo=true&default_payment_method=&default_interval=single"
+  title="Donation form for project 4667"
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin"
+  style="display:block;border:0;width:100%;max-width:600px;height:800px;background:transparent;">
+</iframe>
+```
+
+Trade-off: without the bundled `iframe-resizer`, the iframe cannot auto-grow with the form, so a sensible fixed `height` (≈ 780–850 px covers Step 1 + donor-details comfortably) is set instead.
+
+For WordPress sites, a community plugin that builds this URL via a shortcode and a Gutenberg block is available: **[s-a-s-k-i-a/betterplace-donation-embed](https://github.com/s-a-s-k-i-a/betterplace-donation-embed)** (GPL-2.0-or-later, minimal admin UI, no dependency on `load_donation_iframe.js`).
+
 ## Streaming Widgets and Donation Webhooks
 You can use our public API to show donation statistics and other details of your fundraising event. But we also have out-of-the box features for livestreams that you can use.
 
